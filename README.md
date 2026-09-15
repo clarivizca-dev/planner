@@ -1,22 +1,17 @@
-# little planner: setup
+# little planner: how to update
 
-## 1. Put it online (free, one time)
-1. Make a free account at github.com.
-2. Tap **+ → New repository**. Name it `planner`, set it to **Public**, and tap **Create repository**.
-3. Tap **uploading an existing file**. Drag in every file from this folder (index.html, plan.js, sw.js, manifest.webmanifest and the 3 icons), then tap **Commit changes**.
-4. Go to **Settings → Pages**. Under "Branch", choose **main** and **/ (root)**, then tap **Save**.
-5. After about a minute, your app is live at `https://YOUR-USERNAME.github.io/planner/`.
+## Replace the app on GitHub (one time, for this new version)
+1. Open github.com/clarivizca-dev/planner.
+2. Click **Add file → Upload files**.
+3. Drag in ALL the files from this folder. GitHub replaces the old ones.
+4. Click **Commit changes**. Within 1–2 minutes, the app on your phone updates the next time you open it.
 
-## 2. Put it on your phone
-- **iPhone:** open the link in **Safari**, tap **Share**, then tap **Add to Home Screen**.
-- **Android:** open the link in **Chrome**, tap **⋮**, then tap **Install app** (or **Add to Home screen**).
+## Everyday use (no GitHub needed)
+- **Today:** your full day is built automatically from your classes and deadlines. Tap **+** to add plans like meeting friends.
+- **Tasks:** tick things off, edit dates, or tap **📷** to read a screenshot.
+- **Weigh-ins:** log your weight every Sunday morning.
+- **More → Screenshot import:** add your free Google Gemini key once.
+- **More → Reminders:** ntfy notifications (same topic as before).
 
-## 3. Turn on reminders
-1. Install the free **ntfy** app and allow notifications.
-2. Open the planner and tap **🔔**. Copy your topic.
-3. In ntfy, tap **+** and paste the topic to subscribe.
-4. Back in the planner, tap **send test**, then turn **Reminders on**.
-5. Open the planner about once a day. Each time, it queues reminders for the next two days.
-
-## When Claude sends you a fix
-Claude gives you a new `plan.js`. In your GitHub repo, tap **Add file → Upload files**, drop in the new `plan.js`, and tap **Commit changes**. Within a minute or two, the app refreshes itself the next time you open it.
+## New semester or big changes
+Ask Claude for a new `plan.js` and upload just that file. Your ticks, weigh-ins and anything you added stay on your phone.

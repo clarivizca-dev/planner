@@ -184,6 +184,18 @@ textarea.inp{min-height:90px}
 .list .item span:last-child{color:var(--soft); font-family:var(--hand); font-size:22px}
 .days{display:flex; gap:6px; flex-wrap:wrap}
 .days .segb{min-width:44px}
+.btn.mini{padding:2px 10px; font-size:12.5px; vertical-align:top; margin-top:2px}
+.mrow{display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-top:4px}
+.mrow .chk{padding:0; min-height:0; font-size:13px; font-weight:700; color:var(--soft)}
+.opt{display:flex; justify-content:space-between; gap:10px; width:100%; text-align:left; border:1.5px solid var(--line); background:var(--paper); border-radius:14px; padding:10px 12px; margin:6px 0; font-weight:700}
+.opt[aria-pressed="true"]{border-color:var(--pink); background:var(--pink-bg)}
+.opt small{color:var(--soft); font-weight:700; white-space:nowrap}
+.ex{padding:7px 0; border-bottom:1.5px dashed var(--line)}
+.ex:last-child{border-bottom:0}
+.ex b{font-family:var(--body); font-size:14.5px}
+.ex .sets{display:inline-block; margin-left:6px; padding:0 8px; border-radius:999px; background:var(--lav-bg); border:1.2px solid var(--lav); font-size:12px; font-weight:800; color:var(--ink)}
+.ex p{margin:2px 0 0; font-size:13px}
+.wtip{font-size:13px; margin:6px 0 0; color:var(--ink)!important}
 .menuitem{padding:6px 0; border-bottom:1.5px dashed var(--line)}
 .menuitem:last-child{border-bottom:0}
 .topic{font-weight:800; word-break:break-all; background:var(--butter-bg); padding:1px 8px; border-radius:8px}
@@ -273,7 +285,8 @@ const COURSE=code=>COURSES[code]||COURSES.OTHER;
 
 /* ---- state (kept on this phone) ---- */
 const store={get(k,d){try{const v=JSON.parse(localStorage.getItem(k));return v??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-const S=Object.assign({classes:[],tasks:[],taskEdits:{},deleted:{},done:{},events:{},checks:{},weights:{},wcfg:{},settings:{}},store.get("lp:state",{}));
+const S=Object.assign({classes:[],tasks:[],taskEdits:{},deleted:{},done:{},events:{},checks:{},weights:{},wcfg:{},settings:{},recipes:{},recipeOff:{},mealSwaps:{}},store.get("lp:state",{}));
+Object.assign(R,S.recipes);
 S.settings=Object.assign({gym:[1,3,5,6],model:"gemini-flash-latest",apiKey:"",water:5},S.settings);
 const save=()=>store.set("lp:state",S);
 const uid=()=>"u-"+Date.now().toString(36)+Math.random().toString(36).slice(2,6);
@@ -310,6 +323,48 @@ function wakeFor(d){
   if(c.length) return Math.max(345,Math.min(...c.map(x=>x.start))-135);
   return (dow===0||dow===6)?510:480;
 }
+/* weekly training: 2 glute days, 1 upper + core, 1 full-body; home glutes + core on the other days */
+const WK={
+ GA:{n:"Glutes + hamstrings",min:60,warm:"5 min bike + 2×15 banded glute bridges + 2×10 bodyweight squats",
+  ex:[["Hip thrust (barbell or machine)","4 × 8–10","Chin tucked, ribs down, push through your heels and squeeze hard at the top for 1 second."],
+      ["Romanian deadlift (dumbbells or bar)","3 × 10","Soft knees, push your hips back until you feel the hamstrings stretch, then stand up by squeezing your glutes."],
+      ["Bulgarian split squat","3 × 8 each leg","Front foot far forward and lean your chest slightly forward. That makes it a glute exercise."],
+      ["Cable kickback","3 × 12 each leg","Small movement, straight back leg, don't arch your lower back."],
+      ["Hip abduction machine","3 × 15","Lean your chest forward over the machine to hit the upper glutes."]],
+  fin:"15 min incline treadmill walk (incline 8–12, brisk pace)"},
+ UC:{n:"Upper body + core",min:60,warm:"5 min rowing machine + arm circles + 2×10 band pull-aparts",
+  ex:[["Lat pulldown","3 × 10","Pull to your upper chest and squeeze your shoulder blades down and back."],
+      ["Seated cable row","3 × 10","Tall chest, pull your elbows back past your ribs."],
+      ["Dumbbell shoulder press","3 × 10","Sit tall with ribs down, and don't let your lower back arch."],
+      ["Triceps rope pushdown","3 × 12","Elbows pinned to your sides and fully straighten at the bottom. Good for the back of the arms."],
+      ["Dumbbell curl","3 × 12","Slow on the way down, no swinging."],
+      ["Dead bug","3 × 10 each side","Press your lower back into the floor the whole time."],
+      ["Plank","3 × 30–45 s","Squeeze your glutes and pull your belly button in."]],
+  fin:"10 min bike intervals: 30 s hard, 90 s easy, 5 rounds"},
+ GB:{n:"Glutes + legs",min:60,warm:"5 min stair climber + 2×12 clamshells each side + 2×10 walking lunges",
+  ex:[["Goblet or sumo squat","3 × 10","Sit down between your heels, knees pushed out, chest up."],
+      ["Cable pull-through","3 × 12","Hinge back like a Romanian deadlift and snap your hips forward with a squeeze."],
+      ["Step-up onto a bench","3 × 10 each leg","Drive through the front heel and don't push off the back foot."],
+      ["Single-leg glute bridge","3 × 10 each leg","Pause 1 second at the top."],
+      ["45° back extension (round your upper back slightly)","3 × 12","Tuck your chin and use your glutes to lift, not your lower back."],
+      ["Hip abduction machine","2 × 20","Burnout set: go until it really burns."]],
+  fin:"12 min stair climber at a steady pace"},
+ FB:{n:"Full body + conditioning",min:60,warm:"5 min rowing machine + 2×10 glute bridges + 2×8 push-ups (knees are fine)",
+  ex:[["Trap-bar or dumbbell deadlift","3 × 8","Flat back, push the floor away, finish with your glutes."],
+      ["Dumbbell bench press","3 × 10","Feet planted, lower slowly to your chest."],
+      ["Walking lunges","3 × 10 each leg","Long steps work the glutes more."],
+      ["Kettlebell swing","4 × 15","It's a hip snap, not a squat, and the arms just follow."],
+      ["Farmer's carry","3 × 30 m","Heavy dumbbells, tall posture, braced core."],
+      ["Pallof press","3 × 10 each side","Resist the cable pulling you sideways. Great for the waist."]],
+  fin:"10 min rowing machine: 1 min hard, 1 min easy"},
+ S:{n:"Short full-body (busy day)",min:40,warm:"3 min bike + 10 glute bridges",
+  ex:[["Hip thrust","3 × 10","Squeeze at the top."],["Goblet squat","3 × 10","Chest up."],["Dumbbell row","3 × 10 each arm","Elbow back to your hip."],["Push-ups (knees are fine)","3 × 8","Body in one straight line."],["Plank","2 × 30 s","Glutes tight."]],
+  fin:"8 min incline treadmill walk"},
+ R:{n:"Home glutes + core (20 min)",min:20,warm:"Do it on your bedroom floor. No equipment needed; a mini band helps.",
+  ex:[["Banded glute bridge","3 × 15","Pause at the top."],["Clamshells","2 × 15 each side","Keep your feet together and hips still."],["Donkey kicks","2 × 12 each leg","Kick your heel toward the ceiling without arching your back."],["Bird dog","3 × 8 each side","Slow, keep your hips level."],["Dead bug","3 × 8 each side","Lower back pressed down."],["Side plank","2 × 20 s each side","Hips high."]],
+  fin:"Then a brisk 20–30 min walk (the dog walk counts) and 5 min of stretching."}
+};
+const WK_NOTE="Fat comes off your whole body as you lose weight, not from one spot, so ab or arm exercises alone won't slim those areas. Strength training plus your eating plan slims your stomach, arms and thighs over time, and the heavy glute work builds your butt. Each week, add a little weight or 1–2 reps when all the sets feel doable. A safe pace for fat loss is about 0.5–1 kg a week.";
 const MOTTOS=["little things, big progress ☆","slow and steady still gets there ✿","one box at a time ♡","soft heart, sharp focus ☀","you've done hard days before ☆","small wins count too 🍒","be proud of the tiny steps ☘","rest is part of the plan ☾","future you says thank you ✿","just the next thing ♡","do it gently, but do it ☆"];
 const GROCERY="Chicken, salmon, eggs, FAGE 0%, cottage cheese, Harina PAN, berries, apples, strawberries, cucumber, tomato, broccoli, asparagus, carrots, avocado, sweet potato, edamame, rice, quinoa.";
 
@@ -330,7 +385,8 @@ function buildDay(d){
   const soon=open.filter(t=>t.type!=="exam"&&t.date>tmr&&diffDays(d,t.date)<=4).sort((a,b)=>a.date.localeCompare(b.date));
   const heavy=tonight.length+dueTmr.length>=2||exams.some(t=>diffDays(d,t.date)<=2);
   const gymDay=(S.settings.gym||[]).includes(dow);
-  const wkKey=mod(idx,2)?"A":"B", wkName=wkKey==="A"?"lower body + cardio":"upper body + cardio";
+  const gymBefore=[1,2,3,4,5,6,0].slice(0,[1,2,3,4,5,6,0].indexOf(dow)).filter(x=>(S.settings.gym||[]).includes(x)).length;
+  const wkKey=["GA","UC","GB","FB"][gymBefore%4], wkName=WK[wkKey].n.toLowerCase();
   const weekendNight=dow===5||dow===6;
   const nextWake=wakeFor(tmr);
   let bed=weekendNight?1410:Math.min(Math.max(nextWake+960,1320),1380);
@@ -339,10 +395,16 @@ function buildDay(d){
   const sleepTxt=`${Math.floor(sleepMin/60)} h${sleepMin%60?` ${sleepMin%60} min`:""}`;
 
   const campus=cls.length&&Math.max(...cls.map(c=>c.end))>=14*60;
-  const B=gymDay?"a3b":["a2b","a3","eb","a2b","a3"][mod(idx,5)];
-  const L=campus?["med","cac"][mod(idx,2)]:["med","bur","asn","cac","med","bur","cac"][mod(idx,7)];
-  let D=["ter","hm","ssp","scc","asn","hm","ssp"][mod(idx,7)]; if(D===L) D="hm";
-  const SN=gymDay?"ay":["yb","ys","cs","ed"][mod(idx,4)];
+  const rot=(base,c)=>{const on=k=>R[k]&&!S.recipeOff[k];
+    const p=[...base.filter(on),...Object.keys(S.recipes).filter(k=>on(k)&&R[k].c===c)];
+    return p.length?p:Object.keys(R).filter(k=>R[k].c===c);};
+  const pick=(p,n)=>p[mod(n,p.length)];
+  const sw=S.mealSwaps[d]||{}, ok=k=>k&&R[k];
+  const B=ok(sw.B)?sw.B:(gymDay&&!S.recipeOff.a3b?"a3b":pick(rot(["a2b","a3","eb","a2b","a3"],"b"),idx));
+  const L=ok(sw.L)?sw.L:(campus?pick(rot(["med","cac"],"m"),idx):pick(rot(["med","bur","asn","cac","med","bur","cac"],"m"),idx));
+  const dPool=rot(["ter","hm","ssp","scc","asn","hm","ssp"],"m");
+  let D=ok(sw.D)?sw.D:pick(dPool,idx+3); if(!ok(sw.D)&&D===L&&dPool.length>1) D=pick(dPool.filter(k=>k!==L),idx);
+  const SN=ok(sw.SN)?sw.SN:(gymDay&&!S.recipeOff.ay?"ay":pick(rot(["yb","ys","cs","ed"],"s"),idx));
 
   /* focus queue: most urgent first */
   const q=[];
@@ -365,17 +427,17 @@ function buildDay(d){
     const first=cls[0].start, last=Math.max(...cls.map(c=>c.end)), W=first-135;
     add(W,null,"Wake up","m",{kind:"wake"});
     add(W+5,W+30,"Get ready","m");
-    add(W+30,W+50,"Breakfast","m",{r:B,kind:"meals"});
+    add(W+30,W+50,"Breakfast","m",{r:B,slot:"B",kind:"meals"});
     const morningDue=dueToday.filter(t=>t.time&&hm(t.time)<15*60&&t.type!=="exam");
     add(W+50,W+70,morningDue.length?"Pack bag + check today's submissions":"Pack bag + teeth","m",morningDue.length?{tag:`${morningDue.length} due today`}:{});
     add(first-60,null,"Leave for uni","m",{kind:"leave"});
     add(first-60,first,"Commute to IE","u");
     cls.forEach(c=>{const ex=/exam|midterm/i.test(c.note||"");add(c.start,c.end,c.title+(c.note?` (${c.note})`:""),"u",{cls:1,code:c.code,n:c.room?`Room ${c.room}`:"",tag:ex?"exam":""});});
     cur=last;
-    if(campus){cur=add(cur,cur+25,"Packed lunch on campus","u",{r:L,kind:"meals",n:"You won't be home until later, so eat before the commute."});lunchDone=true;}
+    if(campus){cur=add(cur,cur+25,"Packed lunch on campus","u",{r:L,slot:"L",kind:"meals",n:"You won't be home until later, so eat before the commute."});lunchDone=true;}
     cur=add(cur,cur+60,"Commute home","u");
     cur=add(cur,cur+40,"Walk the dogs 🐾","a",{kind:"dogs"});
-    if(!lunchDone) cur=add(cur,cur+30,"Lunch","a",{r:L,kind:"meals"});
+    if(!lunchDone) cur=add(cur,cur+30,"Lunch","a",{r:L,slot:"L",kind:"meals"});
     const nap=cur>=930?30:45;
     cur=add(cur,cur+nap,`Nap (${nap} min)`,"a",{kind:"nap"});
     cur=add(cur,cur+15,"Wake up + water","a");
@@ -384,21 +446,21 @@ function buildDay(d){
     add(W,null,"Wake up","m",{kind:"wake"}); cur=W+5;
     if(dow===0) cur=add(cur,cur+5,"Sunday weigh-in ⚖️ (before breakfast)","m",{kind:"weigh",weigh:1});
     cur=add(cur,cur+25,"Get ready, slow morning","m");
-    cur=add(cur,cur+30,"Breakfast","m",{r:B,kind:"meals"});
+    cur=add(cur,cur+30,"Breakfast","m",{r:B,slot:"B",kind:"meals"});
     cur=add(cur,cur+45,(dow===0||dow===6)?"Long dog walk 🐾":"Walk the dogs 🐾","a",{kind:"dogs"});
     cur+=15;
-    if(gymDay){cur=add(cur,cur+15,"Change for the gym","g",{kind:"gym"});cur=add(cur,cur+60,`Gym: ${wkName}`,"g",{w:wkKey});cur=add(cur,cur+20,"Shower","g");gymDone=true;cur+=10;}
+    if(gymDay){cur=add(cur,cur+15,"Change for the gym","g",{kind:"gym"});cur=add(cur,cur+60,`Gym: ${wkName}`,"g",{w:wkKey,kind:"workout"});cur=add(cur,cur+20,"Shower","g");gymDone=true;cur+=10;}
     cur=focus(cur,75);
     const lunchAt=Math.max(cur+15,750);
     if(lunchAt-cur>=35) add(cur+5,lunchAt-5,dow===6?"Free time ✿":"Free time / chores","a");
-    cur=add(lunchAt,lunchAt+30,"Lunch","a",{r:L,kind:"meals"});
+    cur=add(lunchAt,lunchAt+30,"Lunch","a",{r:L,slot:"L",kind:"meals"});
     cur=add(cur,cur+45,"Nap (45 min)","a",{kind:"nap"});
     cur=add(cur,cur+15,"Wake up + water","a");
   }
   cur=Math.ceil(cur/5)*5;
   const late=cur>=17*60;
   cur=focus(cur,75);
-  cur=add(cur,cur+15,"Snack + break","a",{r:SN,kind:"meals"});
+  cur=add(cur,cur+15,"Snack + break","a",{r:SN,slot:"SN",kind:"meals"});
   cur=focus(cur,late?45:(heavy||fq<q.length?60:45));
   if(urgentN>2&&fq<q.length&&!late){cur=add(cur,cur+10,"Break: water + stretch","a");cur=focus(cur,45);}
   if(dow===6) cur=add(cur+10,cur+55,"Grocery shop","a",{n:GROCERY});
@@ -407,14 +469,14 @@ function buildDay(d){
   if(gymDay&&!gymDone){
     const g=heavy||late?40:60; cur+=10;
     cur=add(cur,cur+10,"Change for the gym","g",{kind:"gym"});
-    cur=add(cur,cur+g,`Gym: ${g<60?"short full-body":wkName}`,"g",{w:g<60?"S":wkKey});
+    cur=add(cur,cur+g,`Gym: ${g<60?"short full-body":wkName}`,"g",{w:g<60?"S":wkKey,kind:"workout"});
     cur=add(cur,cur+20,roast?"Shower (veg in the oven first)":"Shower","g");
   } else if(!gymDay){
-    cur=add(cur+10,cur+30,"Stretch / mobility (rest day)","g",{kind:"gym",w:"R"});
+    cur=add(cur+10,cur+30,"Home workout: glutes + core (20 min)","g",{kind:"gym",w:"R"});
   }
   const dStart=Math.max(cur+5,1155);
   if(dStart-cur>=30) add(cur,dStart,weekendNight?"Free time ✿":"Free time ♡","e");
-  cur=add(dStart,dStart+45,"Dinner","e",{r:D,kind:"meals"});
+  cur=add(dStart,dStart+45,"Dinner","e",{r:D,slot:"D",kind:"meals"});
   const prepAt=bed-45;
   if(tonight.length||heavy){
     const len=Math.max(20,Math.min(45,prepAt-cur-5));
@@ -445,7 +507,7 @@ function buildDay(d){
   firstFocus.forEach(l=>{if(big3.length<2&&!big3.includes(l))big3.push(l)});
   while(big3.length<2) big3.push("Review today's notes for 20 min");
   big3.length=2;
-  big3.push(gymDay?"Gym + dogs walked":"Stretch, dogs walked, early night");
+  big3.push(gymDay?"Gym + dogs walked":"20-min home workout + dogs walked");
 
   const prep=["Pack bag","Charge laptop","Check calendar","Prepare outfit","Review tomorrow's most important task"];
   if(classesOn(tmr).some(c=>c.room)) prep.push(`Tomorrow: ${COURSE(classesOn(tmr).find(c=>c.room).code).s} is in ${classesOn(tmr).find(c=>c.room).room}`);
@@ -475,7 +537,11 @@ const recipe=k=>{const r=R[k];return `<details class="rec"><summary>${esc(r.n)},
  <div class="macro"><span>${r.kt||r.kc} kcal</span><span>${r.pt||r.pr} g protein</span></div>
  <ul>${r.i.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
  ${r.sauce?`<p class="sauce"><strong>Sauce:</strong> ${esc(r.sauce)}</p>`:""}${r.s?`<p>${esc(r.s)}</p>`:""}${r.t?`<p class="tip">${esc(r.t)}</p>`:""}</div></details>`};
-const workout=k=>`<details class="rec"><summary>${k==="R"?"stretch plan":"workout plan"}</summary><div class="recbox"><p style="color:var(--ink)">${esc(WO[k])}</p></div></details>`;
+const workout=k=>{const w=WK[k];if(!w)return"";return `<details class="rec"><summary>${esc(w.n)}, ${w.ex.length} exercises</summary><div class="recbox"><b>${esc(w.n)}</b>
+ <p><strong style="color:var(--ink)">Warm-up:</strong> ${esc(w.warm)}</p>
+ ${w.ex.map(([n,sets,cue])=>`<div class="ex"><b>${esc(n)}</b><span class="sets">${esc(sets)}</span><p>${esc(cue)}</p></div>`).join("")}
+ <p class="wtip"><strong>Finish:</strong> ${esc(w.fin)}</p>
+ <p class="tip">Rest 60–90 s between sets. Pick a weight where the last 2 reps are hard but your form stays clean.</p></div></details>`};
 
 /* ---------- sheets ---------- */
 function openSheet(html,mount){
@@ -508,7 +574,7 @@ function renderToday(){
     if(x.sec!==last){rows+=`<div class="sec s-${x.sec}">${SEC[x.sec][1]} ${SEC[x.sec][0]}</div>`;last=x.sec;}
     const time=x.e!=null?fmtR(x.s,x.e):fmt(x.s);
     const inner=`<span class="time">${time}</span><span class="lbl">${esc(x.l)}${x.code?" "+chip(x.code):""}${x.tag?`<span class="tag ${x.y?"y":""}">${esc(x.tag)}</span>`:""}</span>${x.n?`<span class="sub">${esc(x.n)}</span>`:""}`;
-    const extra=(x.r?recipe(x.r):"")+(x.w?workout(x.w):"")+(x.weigh?`<button class="btn alt" data-weigh="1" style="padding:4px 12px;font-size:13px">log weight</button>`:"");
+    const extra=(x.r?recipe(x.r)+` <button class="btn plain mini" data-swap="${x.slot}">↻ swap</button>`:"")+(x.w?workout(x.w):"")+(x.weigh?`<button class="btn alt" data-weigh="1" style="padding:4px 12px;font-size:13px">log weight</button>`:"");
     rows+=`<div class="row ${x.cls?"cls":""} ${x.sec}">${cb(x.id,checks[x.id],inner)}${x.custom?`<button class="rm" data-rm="${x.custom}" aria-label="Remove">✕</button>`:""}${extra?`<div class="extra">${extra}</div>`:""}</div>`;
   });
   const n=P.items.length;
@@ -553,6 +619,7 @@ function renderToday(){
   view.querySelectorAll("input[type=checkbox]").forEach(el=>el.onchange=()=>{const c=S.checks[cur]||(S.checks[cur]={});c[el.dataset.id]=el.checked;save();upd();});
   view.querySelectorAll("[data-rm]").forEach(b=>b.onclick=()=>{S.events[cur]=(S.events[cur]||[]).filter(e=>e.id!==b.dataset.rm);save();renderToday();});
   view.querySelectorAll("[data-weigh]").forEach(b=>b.onclick=()=>weighSheet(cur));
+  view.querySelectorAll("[data-swap]").forEach(b=>b.onclick=()=>swapSheet(cur,b.dataset.swap));
   upd();
   $("#pv").onclick=()=>{cur=addDays(cur,-1);renderToday();};
   $("#nx").onclick=()=>{cur=addDays(cur,1);renderToday();};
@@ -819,16 +886,18 @@ function renderWeight(){
 
 /* ================= MORE ================= */
 function renderMore(){
-  const titles={menu:"menu",bell:"reminders",import:"screenshot import",settings:"settings"};
+  const titles={gym:"workouts",menu:"menu",bell:"reminders",import:"screenshot import",settings:"settings"};
   topbar.innerHTML=moreView?`<button class="ibtn" id="back" aria-label="Back">‹</button><div class="ttl">${titles[moreView]}</div>`:`<div class="ttl">more</div>`;
   if(moreView) $("#back").onclick=()=>{moreView=null;renderMore();};
   if(moreView==="menu") return renderMenu();
+  if(moreView==="gym") return renderGym();
   if(moreView==="bell") return renderBell();
   if(moreView==="import") return renderImportSetup();
   if(moreView==="settings") return renderSettings();
   view.innerHTML=`<section class="hero">${dd("cherry","6%","4px",38,"",-8)}${dd("clover","84%","14px",32,"",6)}<div class="kicker">LITTLE PLANNER</div><div class="dayname" style="font-size:clamp(46px,12vw,70px)">more</div>${squig("var(--lav)")}</section>
   <section class="card"><div class="list">
     <button class="item" data-m="menu"><span>🍒 Menu + recipes</span><span>›</span></button>
+    <button class="item" data-m="gym"><span>♡ Workouts</span><span>›</span></button>
     <button class="item" data-m="bell"><span>🔔 Reminders</span><span>›</span></button>
     <button class="item" data-m="import"><span>📷 Screenshot import</span><span>›</span></button>
     <button class="item" data-m="settings"><span>✿ Gym days, backup + settings</span><span>›</span></button>
@@ -836,9 +905,65 @@ function renderMore(){
   <p class="muted" style="text-align:center">plan data ${esc(SEED.version)}</p>`;
   view.querySelectorAll("[data-m]").forEach(b=>b.onclick=()=>{moreView=b.dataset.m;renderMore();window.scrollTo({top:0});});
 }
+function renderGym(){
+  const g=S.settings.gym, order=[1,2,3,4,5,6,0];
+  let n=0; const plan=order.map(dw=>{const on=g.includes(dw);const k=on?["GA","UC","GB","FB"][n++%4]:"R";return `<div class="wl"><span>${on?"♡":"✿"}</span><span><b>${WD[dw].slice(0,3)}</b>: ${esc(WK[k].n)}</span></div>`}).join("");
+  view.innerHTML=`<section class="card"><h2>my week</h2>${plan}<p class="muted">Change your gym days in More → Gym days. Busy days switch to the short workout automatically.</p></section>
+  <div class="note ok">${esc(WK_NOTE)}</div>
+  ${["GA","GB","UC","FB","S","R"].map(k=>`<section class="card"><h2>${esc(WK[k].n)}</h2>${workout(k)}</section>`).join("")}`;
+}
 function renderMenu(){
-  const grp=[["b","breakfast","☀","Arepas keep 3–4 days in the fridge, so make 4 at a time."],["m","lunch + dinner bowls","✿","Weigh chicken and salmon after cooking."],["s","snacks","♡","One protein snack a day is usually enough. Add fruit or veg if you're hungry."]];
-  view.innerHTML=grp.map(([c,t,ic,tip])=>`<section class="card"><h2>${ic} ${t}</h2><p class="muted" style="margin-top:-2px">${tip}</p>${Object.keys(R).filter(k=>R[k].c===c).map(k=>`<div class="menuitem">${recipe(k)}</div>`).join("")}</section>`).join("");
+  const grp=[["b","breakfast","☀","Arepas keep 3–4 days in the fridge, so make 4 at a time."],["m","lunch + dinner","✿","Weigh chicken and salmon after cooking."],["s","snacks","♡","One protein snack a day is usually enough. Add fruit or veg if you're hungry."]];
+  view.innerHTML=`<div class="btns" style="margin-top:4px"><button class="btn wide" id="newMeal">+ add a meal</button></div>
+  <p class="muted">Ticked meals rotate through your daily plans. To change one day's meal, tap <b>↻ swap</b> under it in that day's plan.</p>`+
+  grp.map(([c,t,ic,tip])=>`<section class="card"><h2>${ic} ${t}</h2><p class="muted" style="margin-top:-2px">${tip}</p>${Object.keys(R).filter(k=>R[k].c===c).map(k=>`<div class="menuitem">${recipe(k)}
+    <div class="mrow">${cb("on-"+k,!S.recipeOff[k],`<span>in my plans</span>`)}${R[k].custom?`<button class="btn plain mini" data-ed="${k}">✎ edit</button>`:""}</div></div>`).join("")}</section>`).join("");
+  $("#newMeal").onclick=()=>recipeSheet(null,"m");
+  view.querySelectorAll('input[data-id^="on-"]').forEach(el=>el.onchange=()=>{const k=el.dataset.id.slice(3);if(el.checked)delete S.recipeOff[k];else S.recipeOff[k]=1;save();});
+  view.querySelectorAll("[data-ed]").forEach(b=>b.onclick=()=>recipeSheet(b.dataset.ed));
+}
+const SLOT={B:["breakfast","b"],L:["lunch","m"],D:["dinner","m"],SN:["snack","s"]};
+function swapSheet(d,slot){
+  const [name,c]=SLOT[slot]; const curK=buildDay(d).items.find(i=>i.slot===slot)?.r;
+  const keys=Object.keys(R).filter(k=>R[k].c===c);
+  openSheet(`<h2>swap ${name}</h2><p class="muted" style="margin-top:0">${dShort(d)}. Pick anything from your menu.</p>
+    ${keys.map(k=>`<button class="opt" data-k="${k}" aria-pressed="${k===curK}"><span>${esc(R[k].n)}</span><small>${kLabel(R[k])}</small></button>`).join("")}
+    <div class="btns">${S.mealSwaps[d]?.[slot]?`<button class="btn plain" id="sReset">Back to the planned meal</button>`:""}<button class="btn plain" id="sNew">+ add a new meal</button><button class="btn plain" id="sX">Close</button></div>`,()=>{
+    document.querySelectorAll("#sheetRoot .opt").forEach(b=>b.onclick=()=>{(S.mealSwaps[d]||(S.mealSwaps[d]={}))[slot]=b.dataset.k;save();closeSheet();render();toast("Swapped ✿");});
+    if($("#sReset")) $("#sReset").onclick=()=>{delete S.mealSwaps[d][slot];save();closeSheet();render();};
+    $("#sNew").onclick=()=>recipeSheet(null,c);
+    $("#sX").onclick=closeSheet;
+  });
+}
+function recipeSheet(id,cat="m"){
+  const r=id?R[id]:{c:cat,n:"",kc:"",pr:"",i:[],s:""};
+  openSheet(`<h2>${id?"edit meal":"add a meal"}</h2>
+    <div class="field"><label for="r1">Name</label><input class="inp" id="r1" value="${esc(r.n)}" placeholder="Tuna pasta salad"></div>
+    <div class="field"><label for="r2">Type</label><select class="inp" id="r2">${[["b","Breakfast"],["m","Lunch or dinner"],["s","Snack"]].map(([k,l])=>`<option value="${k}" ${k===r.c?"selected":""}>${l}</option>`).join("")}</select></div>
+    <div class="grid2"><div class="field"><label for="r3">Calories (kcal)</label><input class="inp" id="r3" type="number" inputmode="numeric" value="${r.kc}"></div>
+    <div class="field"><label for="r4">Protein (g)</label><input class="inp" id="r4" type="number" inputmode="numeric" value="${r.pr}"></div></div>
+    <div class="field"><label for="r5">Ingredients, one per line, with grams</label><textarea class="inp" id="r5" placeholder="120 g chicken breast&#10;80 g cooked rice&#10;100 g cucumber">${esc((r.i||[]).join("\n"))}</textarea></div>
+    <div class="field"><label for="r6">How to make it (optional)</label><textarea class="inp" id="r6">${esc(r.s||"")}</textarea></div>
+    ${cb("r7",id?!S.recipeOff[id]:true,`<span class="lbl">Use it in my daily plans</span>`)}
+    <p class="muted">Not sure of the calories? Check the packets, or ask Claude to work it out from the grams.</p>
+    <div class="btns"><button class="btn" id="rS">Save</button><button class="btn plain" id="rX">Cancel</button>${id?`<button class="btn warn" id="rD">Delete</button>`:""}</div>`,()=>{
+    $("#rX").onclick=closeSheet;
+    $("#rS").onclick=()=>{
+      const n=$("#r1").value.trim(), kc=parseInt($("#r3").value,10), pr=parseInt($("#r4").value,10);
+      if(!n){toast("Give the meal a name");return;}
+      if(!(kc>0)||!(pr>=0)){toast("Add the calories and protein");return;}
+      const key=id||("x"+uid());
+      const rec={c:$("#r2").value,n,kc,pr,i:$("#r5").value.split("\n").map(x=>x.trim()).filter(Boolean),s:$("#r6").value.trim(),custom:1};
+      S.recipes[key]=rec; R[key]=rec;
+      if($('#sheetRoot [data-id="r7"]').checked) delete S.recipeOff[key]; else S.recipeOff[key]=1;
+      save();closeSheet();render();toast("Meal saved ✿");
+    };
+    if($("#rD")) $("#rD").onclick=()=>{
+      delete S.recipes[id]; delete R[id]; delete S.recipeOff[id];
+      Object.values(S.mealSwaps).forEach(o=>Object.keys(o).forEach(k=>{if(o[k]===id)delete o[k];}));
+      save();closeSheet();render();toast("Meal deleted");
+    };
+  });
 }
 function renderImportSetup(){
   const s=S.settings;
@@ -870,7 +995,7 @@ function renderSettings(){
   $("#bk").onclick=()=>{const data=JSON.stringify(Object.assign({},S,{settings:Object.assign({},S.settings,{apiKey:""})}));(navigator.clipboard?navigator.clipboard.writeText(data):Promise.reject()).then(()=>toast("Backup copied. Paste it into Notes."),()=>toast("Couldn't copy on this device"));};
   $("#rs").onclick=()=>openSheet(`<h2>restore</h2><div class="field"><label for="rt">Paste your backup</label><textarea class="inp" id="rt"></textarea></div><div class="btns"><button class="btn" id="rgo">Restore</button><button class="btn plain" id="rx">Cancel</button></div>`,()=>{
     $("#rx").onclick=closeSheet;
-    $("#rgo").onclick=()=>{try{const v=JSON.parse($("#rt").value);const key=S.settings.apiKey;Object.keys(S).forEach(k=>delete S[k]);Object.assign(S,v);S.settings.apiKey=S.settings.apiKey||key;save();invalidate();closeSheet();toast("Restored");render();}catch(e){toast("That doesn't look like a backup");}};
+    $("#rgo").onclick=()=>{try{const v=JSON.parse($("#rt").value);const key=S.settings.apiKey;Object.keys(S).forEach(k=>delete S[k]);Object.assign(S,v);S.settings.apiKey=S.settings.apiKey||key;save();location.reload();}catch(e){toast("That doesn't look like a backup");}};
   });
   $("#wipe").onclick=()=>openSheet(`<h2>reset everything?</h2><p>Your ticks, added plans, task edits and weigh-ins will be removed from this phone.</p><div class="btns"><button class="btn warn" id="wy">Reset</button><button class="btn plain" id="wn2">Keep my data</button></div>`,()=>{
     $("#wn2").onclick=closeSheet;

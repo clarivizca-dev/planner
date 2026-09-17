@@ -88,7 +88,8 @@ main{position:relative; z-index:1; max-width:720px; margin:0 auto; padding:10px 
 .chk input:checked + .box{background:var(--pink-bg); border-color:var(--pink)}
 .chk input:checked + .box::after{transform:rotate(40deg) scale(1)}
 .chk input:focus-visible + .box{outline:2.5px dashed var(--lav); outline-offset:2px}
-.chk input:checked ~ .txt .lbl{text-decoration:line-through; text-decoration-color:var(--pink); text-decoration-thickness:2.5px; opacity:.6}
+.chk input:checked ~ .txt .lbl.on{text-decoration:none; opacity:1}
+.chk input:checked ~ .txt .lbl:not(.on){text-decoration:line-through; text-decoration-color:var(--pink); text-decoration-thickness:2.5px; opacity:.6}
 .txt{display:flex; flex-wrap:wrap; column-gap:10px; flex:1; min-width:0}
 .lbl{flex:1 1 200px; font-weight:600}
 .time{flex:0 0 100%; font-weight:800; font-size:13px; color:var(--soft); font-variant-numeric:tabular-nums}
@@ -198,6 +199,7 @@ textarea.inp{min-height:90px}
 .wtip{font-size:13px; margin:6px 0 0; color:var(--ink)!important}
 .menuitem{padding:6px 0; border-bottom:1.5px dashed var(--line)}
 .menuitem:last-child{border-bottom:0}
+code{font-size:13px; background:var(--butter-bg); padding:0 5px; border-radius:6px; word-break:break-all}
 .topic{font-weight:800; word-break:break-all; background:var(--butter-bg); padding:1px 8px; border-radius:8px}
 .steps{margin:4px 0 8px; padding-left:22px}
 .steps li{margin:6px 0}
@@ -291,6 +293,48 @@ S.settings=Object.assign({gym:[1,3,5,6],model:"gemini-flash-latest",apiKey:"",wa
 const save=()=>store.set("lp:state",S);
 const uid=()=>"u-"+Date.now().toString(36)+Math.random().toString(36).slice(2,6);
 
+/* ---- calendar feed (calendar-feed.json written by the GitHub robot) ---- */
+let FEED=store.get("lp:feed",null);
+function matchCourse(title){
+  const T=String(title).toUpperCase();
+  const keys={ALG:["ALGORITHM"],PROG:["PROGRAMMING"],MATH:["MATHEMATIC"],PS:["PROBABILITY","STATISTIC"],MKT:["MARKETING"],TWI:["TECHNOLOGY W","IMPACT"],BPR:["BUILDING POW","RELATIONSHIP"],AML:["ATTENTION"]};
+  for(const [k,v] of Object.entries(keys)) if(v.some(x=>T.includes(x))) return k;
+  return "OTHER";
+}
+const guessType=t=>/quiz|warm/i.test(t)?"quiz":/exam|midterm|\btest\b/i.test(t)?"exam":/project|submission/i.test(t)?"project":/present|deliver/i.test(t)?"presentation":/assignment|homework/i.test(t)?"assignment":"task";
+function feedKind(i){
+  const t=i.title||"";
+  if(/\b(ses\.?|session)\s*\d|live in-person|live online|asynchronous/i.test(t)) return "class";
+  if(/quiz|warm[ -]?up|assignment|submission|project|exam|midterm|deliver|deadline|\bdue\b|\btest\b|homework|feedback|reflect/i.test(t)) return "deadline";
+  if(i.start==="23:59"||(i.start&&i.start===i.end)) return "deadline";
+  if(matchCourse(t)!=="OTHER") return "class";
+  return "event";
+}
+const feedItems=()=>(FEED&&!S.settings.feedOff&&Array.isArray(FEED.items))?FEED.items:[];
+function feedClasses(){
+  return feedItems().filter(i=>feedKind(i)==="class").map(i=>{
+    const code=matchCourse(`${i.title} ${i.location||""}`);
+    const asy=i.allDay||!i.start||/asynchronous/i.test(i.title);
+    const st=asy?null:hm(i.start);
+    const en=asy?null:(i.end&&i.end!=="23:59"&&hm(i.end)>st?hm(i.end):st+SEED.classLength);
+    const ex=(i.title.match(/final exam|midterm|exam/i)||[""])[0].toLowerCase();
+    return {id:`f-c-${i.id}`,date:i.date,start:st,end:en,async:asy,code,title:code==="OTHER"?i.title:"",note:ex,room:i.location||"",feed:1};
+  });
+}
+function feedEvents(d){
+  return feedItems().filter(i=>i.date===d&&!i.allDay&&i.start&&feedKind(i)==="event").map(i=>{
+    const s0=hm(i.start); let e0=i.end?hm(i.end):s0+60; if(e0<=s0) e0=s0+60;
+    return {id:`f-e-${i.id}`,s:s0,e:e0,l:i.title,feed:1};
+  });
+}
+const numTokens=t=>(String(t).match(/\d+/g)||[]);
+function sameTask(a,b){
+  if(a.date!==b.date) return false;
+  if(slug(a.title).slice(0,12)===slug(b.title).slice(0,12)) return true;
+  const na=numTokens(a.title), nb=numTokens(b.title);
+  const courseOk=a.code===b.code||a.code==="OTHER"||b.code==="OTHER";
+  return courseOk&&guessType(a.title)===guessType(b.title)&&na.some(x=>nb.includes(x));
+}
 let _cc=null,_tc=null;
 const invalidate=()=>{_cc=null;_tc=null;};
 function seedClasses(){
@@ -302,7 +346,11 @@ function seedClasses(){
 }
 function allClasses(){
   if(_cc) return _cc;
-  _cc=[...seedClasses(),...S.classes].filter(c=>!S.deleted[c.id]).map(c=>Object.assign({},c,{title:c.title||COURSE(c.code).n,room:c.room||COURSE(c.code).room||""}));
+  const fc=feedClasses();
+  const fDates=fc.map(c=>c.date).sort(), lo=fDates[0], hi=fDates[fDates.length-1];
+  const inFeed=d=>fc.length&&d>=lo&&d<=hi;
+  const own=S.classes.filter(c=>!fc.some(f=>f.date===c.date&&f.code===c.code&&f.start===c.start));
+  _cc=[...seedClasses().filter(c=>!inFeed(c.date)),...own,...fc].filter(c=>!S.deleted[c.id]).map(c=>Object.assign({},c,{title:c.title||COURSE(c.code).n,room:c.room||COURSE(c.code).room||""}));
   return _cc;
 }
 function seedTasks(){
@@ -310,7 +358,10 @@ function seedTasks(){
 }
 function allTasks(){
   if(_tc) return _tc;
-  _tc=[...seedTasks(),...S.tasks].filter(t=>!S.deleted[t.id]).map(t=>Object.assign({},t,S.taskEdits[t.id]||{}));
+  const base=[...seedTasks(),...S.tasks].filter(t=>!S.deleted[t.id]).map(t=>Object.assign({},t,S.taskEdits[t.id]||{}));
+  const ft=feedItems().filter(i=>feedKind(i)==="deadline").map(i=>({id:`f-t-${i.id}`,date:i.date,time:i.allDay?"":(i.start||""),code:matchCourse(i.title),type:guessType(i.title),title:i.title,note:"From your calendar",feed:1}))
+    .filter(t=>!S.deleted[t.id]).filter(t=>!base.some(b=>sameTask(b,t))).map(t=>Object.assign({},t,S.taskEdits[t.id]||{}));
+  _tc=[...base,...ft];
   return _tc;
 }
 const classesOn=d=>allClasses().filter(c=>c.date===d);
@@ -490,12 +541,12 @@ function buildDay(d){
   add(bed,null,`Lights out (up at ${fmt(nextWake)}, ${sleepTxt})`,"e",{kind:"night"});
 
   /* your own events win over flexible blocks */
-  (S.events[d]||[]).forEach(ev=>{
+  [...(S.events[d]||[]),...feedEvents(d)].forEach(ev=>{
     for(let i=items.length-1;i>=0;i--){
-      const it=items[i]; if(it.sec==="u"||["wake","leave","night"].includes(it.kind)||it.custom) continue;
+      const it=items[i]; if(it.sec==="u"||["wake","leave","night"].includes(it.kind)||it.prot) continue;
       const e=it.e??it.s+1; if(it.s<ev.e&&e>ev.s) items.splice(i,1);
     }
-    items.push({s:ev.s,e:ev.e,l:ev.l,sec:"p",custom:ev.id,kind:"event"});
+    items.push({s:ev.s,e:ev.e,l:ev.l,sec:"p",custom:ev.feed?null:ev.id,prot:1,kind:"event",n:ev.feed?"From your calendar":""});
   });
   items.sort((a,b)=>a.s-b.s||(a.e??a.s)-(b.e??b.s));
   items.forEach(it=>it.id=`${it.s}|${it.l}`);
@@ -644,7 +695,7 @@ function renderWeek(){
       <span class="chev">›</span>
       <div class="wl"><span>🎓</span><span>${clsTxt}${P.asy.length?` + async ${P.asy.map(c=>chip(c.code)).join(" ")}`:""}</span></div>
       ${due.map(t=>`<div class="wl ${S.done[t.id]?"":"dl"}"><span>${S.done[t.id]?"✓":TYPE_IC[t.type]||"⚑"}</span><span>${esc(taskLabel(t))}${t.time?`, ${fmt(hm(t.time))}`:""}</span></div>`).join("")}
-      <div class="wl"><span>♡</span><span>${P.gymDay?(P.heavy?"Short gym":"Gym"):"Rest + stretch"}</span></div>
+      <div class="wl"><span>♡</span><span>${P.gymDay?`Gym: ${esc((P.items.find(i=>i.kind==="workout")||{l:"Gym"}).l.replace(/^Gym: /,""))}`:"Home glutes + core (20 min)"}</span></div>
       <div class="wl"><span>☆</span><span>${esc(P.firstFocus[0]||"Review")}</span></div>
     </button>`;
   }
@@ -697,9 +748,9 @@ function editTaskSheet(t){
     <div class="btns"><button class="btn" id="etS">Save</button><button class="btn plain" id="etC">Cancel</button><button class="btn warn" id="etD">Delete</button></div>`,()=>{
     $("#etC").onclick=closeSheet;
     $("#etS").onclick=()=>{const v={title:$("#et1").value.trim()||t.title,date:$("#et2").value,time:$("#et3").value,code:$("#et4").value,type:$("#et5").value,note:$("#et6").value.trim()};
-      if(t.seed){S.taskEdits[t.id]=v;}else{Object.assign(S.tasks.find(x=>x.id===t.id),v);}
+      if(t.seed||t.feed){S.taskEdits[t.id]=v;}else{Object.assign(S.tasks.find(x=>x.id===t.id),v);}
       save();invalidate();closeSheet();render();toast("Saved");};
-    $("#etD").onclick=()=>{if(t.seed)S.deleted[t.id]=1;else S.tasks=S.tasks.filter(x=>x.id!==t.id);save();invalidate();closeSheet();render();toast("Deleted");};
+    $("#etD").onclick=()=>{if(t.seed||t.feed)S.deleted[t.id]=1;else S.tasks=S.tasks.filter(x=>x.id!==t.id);save();invalidate();closeSheet();render();toast("Deleted");};
   });
 }
 
@@ -736,12 +787,6 @@ function addSheet({kind="event",date=todayKey()}={}){
 }
 
 /* ---------- screenshot import (free Gemini key) ---------- */
-function matchCourse(title){
-  const T=title.toUpperCase();
-  const keys={ALG:["ALGORITHM"],PROG:["PROGRAMMING"],MATH:["MATHEMATIC"],PS:["PROBABILITY","STATISTIC"],MKT:["MARKETING"],TWI:["TECHNOLOGY W","IMPACT"],BPR:["BUILDING POW","RELATIONSHIP"],AML:["ATTENTION"]};
-  for(const [k,v] of Object.entries(keys)) if(v.some(x=>T.includes(x))) return k;
-  return "OTHER";
-}
 async function shrink(file){
   const img=await new Promise((res,rej)=>{const i=new Image();i.onload=()=>res(i);i.onerror=rej;i.src=URL.createObjectURL(file);});
   const sc=Math.min(1,2000/Math.max(img.width,img.height));
@@ -800,7 +845,7 @@ function importSheet(){
               const s=r.allDay||!r.start?null:hm(r.start);
               S.classes.push({id:uid(),date:r.date,start:s,end:s==null?null:(r.end?hm(r.end):s+SEED.classLength),async:s==null,code:r.code,title:r.code==="OTHER"?r.title:""});
             } else if(r.kind==="deadline"){
-              const t=/quiz|warm/i.test(r.title)?"quiz":/exam|midterm|test/i.test(r.title)?"exam":/project|submission/i.test(r.title)?"project":/present|deliver/i.test(r.title)?"presentation":"assignment";
+              const t=guessType(r.title);
               S.tasks.push({id:uid(),date:r.date,time:r.start||"",code:r.code,type:t,title:r.title,note:"From screenshot"});
             } else {
               const s=r.start?hm(r.start):null; if(s==null) return;
@@ -886,11 +931,12 @@ function renderWeight(){
 
 /* ================= MORE ================= */
 function renderMore(){
-  const titles={gym:"workouts",menu:"menu",bell:"reminders",import:"screenshot import",settings:"settings"};
+  const titles={sync:"calendar sync",gym:"workouts",menu:"menu",bell:"reminders",import:"screenshot import",settings:"settings"};
   topbar.innerHTML=moreView?`<button class="ibtn" id="back" aria-label="Back">‹</button><div class="ttl">${titles[moreView]}</div>`:`<div class="ttl">more</div>`;
   if(moreView) $("#back").onclick=()=>{moreView=null;renderMore();};
   if(moreView==="menu") return renderMenu();
   if(moreView==="gym") return renderGym();
+  if(moreView==="sync") return renderSync();
   if(moreView==="bell") return renderBell();
   if(moreView==="import") return renderImportSetup();
   if(moreView==="settings") return renderSettings();
@@ -899,6 +945,7 @@ function renderMore(){
     <button class="item" data-m="menu"><span>🍒 Menu + recipes</span><span>›</span></button>
     <button class="item" data-m="gym"><span>♡ Workouts</span><span>›</span></button>
     <button class="item" data-m="bell"><span>🔔 Reminders</span><span>›</span></button>
+    <button class="item" data-m="sync"><span>📅 Calendar sync (Blackboard link)</span><span>›</span></button>
     <button class="item" data-m="import"><span>📷 Screenshot import</span><span>›</span></button>
     <button class="item" data-m="settings"><span>✿ Gym days, backup + settings</span><span>›</span></button>
   </div></section>
@@ -944,7 +991,7 @@ function recipeSheet(id,cat="m"){
     <div class="field"><label for="r4">Protein (g)</label><input class="inp" id="r4" type="number" inputmode="numeric" value="${r.pr}"></div></div>
     <div class="field"><label for="r5">Ingredients, one per line, with grams</label><textarea class="inp" id="r5" placeholder="120 g chicken breast&#10;80 g cooked rice&#10;100 g cucumber">${esc((r.i||[]).join("\n"))}</textarea></div>
     <div class="field"><label for="r6">How to make it (optional)</label><textarea class="inp" id="r6">${esc(r.s||"")}</textarea></div>
-    ${cb("r7",id?!S.recipeOff[id]:true,`<span class="lbl">Use it in my daily plans</span>`)}
+    ${cb("r7",id?!S.recipeOff[id]:true,`<span class="lbl on">Use it in my daily plans</span>`)}
     <p class="muted">Not sure of the calories? Check the packets, or ask Claude to work it out from the grams.</p>
     <div class="btns"><button class="btn" id="rS">Save</button><button class="btn plain" id="rX">Cancel</button>${id?`<button class="btn warn" id="rD">Delete</button>`:""}</div>`,()=>{
     $("#rX").onclick=closeSheet;
@@ -1062,10 +1109,10 @@ function renderBell(){
     </ol>
     <div class="btns"><button class="btn alt" id="test">send test</button></div></section>
   <section class="card"><h2>my reminders</h2>
-    ${cb("__on",cfg.on,`<span class="lbl"><b>Reminders on</b></span>`)}
+    ${cb("__on",cfg.on,`<span class="lbl on"><b>Reminders on</b></span>`)}
     <div class="field"><label for="lead">Remind me</label><select class="inp" id="lead">${[0,5,10,15].map(v=>`<option value="${v}" ${cfg.lead===v?"selected":""}>${v?v+" min before":"at the start time"}</option>`).join("")}</select></div>
     <div style="font-weight:800;font-size:14px;margin-top:10px">Remind me about</div>
-    ${Object.entries(RTYPES).map(([k,v])=>cb("__t_"+k,cfg.types[k],`<span class="lbl">${v[0]}</span>`)).join("")}
+    ${Object.entries(RTYPES).map(([k,v])=>cb("__t_"+k,cfg.types[k],`<span class="lbl on">${v[0]}</span>`)).join("")}
     <div class="btns"><button class="btn" id="syncNow">sync reminders now</button></div>
     <p class="muted">${ls?`Last sync ${new Date(ls.t).toLocaleString("en-GB",{weekday:"short",hour:"2-digit",minute:"2-digit"})}. ${ls.count} reminders waiting.`:"Not synced yet."}</p></section>
   <section class="card"><h2>changed plans?</h2>
@@ -1081,6 +1128,80 @@ function renderBell(){
   $("#fresh").onclick=()=>{const c=getCfg();c.topic="clarissa-plan-"+rid();setCfg(c);renderBell();toast("New topic. Subscribe to it in ntfy.");};
 }
 
+/* ================= calendar sync ================= */
+function feedUrls(){
+  const h=location.hostname, seg=location.pathname.split("/").filter(Boolean)[0];
+  const u=["calendar-feed.json"];
+  if(h.endsWith(".github.io")&&seg&&!seg.includes(".")) u.unshift(`https://raw.githubusercontent.com/${h.split(".")[0]}/${seg}/main/calendar-feed.json`);
+  return u;
+}
+async function loadFeed(manual){
+  for(const u of feedUrls()){
+    try{
+      const r=await fetch(`${u}?t=${Date.now()}`,{cache:"no-store"}); if(!r.ok) continue;
+      const j=await r.json(); if(!j||!Array.isArray(j.items)) continue;
+      const changed=!FEED||FEED.updated!==j.updated;
+      FEED=j; store.set("lp:feed",j); invalidate();
+      if(changed||manual) render();
+      if(manual) toast(`Calendar loaded: ${j.items.length} items ✿`);
+      return true;
+    }catch(e){}
+  }
+  if(manual) toast("No synced calendar found yet");
+  return false;
+}
+const WORKFLOW=`name: Sync calendar
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install icalendar recurring-ical-events
+      - run: python sync_calendar.py
+        env:
+          CALENDAR_URLS: \${{ secrets.CALENDAR_URLS }}
+      - run: |
+          git config user.name "planner-bot"
+          git config user.email "planner-bot@users.noreply.github.com"
+          git add calendar-feed.json
+          git diff --staged --quiet || (git commit -m "Update calendar" && git push)
+`;
+function renderSync(){
+  const f=FEED, items=feedItems();
+  const nC=items.filter(i=>feedKind(i)==="class").length, nD=items.filter(i=>feedKind(i)==="deadline").length, nE=items.filter(i=>feedKind(i)==="event").length;
+  view.innerHTML=`
+  <section class="card"><h2>status</h2>
+    ${f?`<p style="margin-top:0">Last updated <b>${esc(new Date(f.updated).toLocaleString("en-GB",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}))}</b> from ${f.sources} calendar${f.sources>1?"s":""}.</p>
+      <p>${nC} classes, ${nD} deadlines and ${nE} other events between ${dShort(f.from)} and ${dShort(f.to)}.</p>
+      ${f.errors&&f.errors.length?`<div class="note">${esc(f.errors.join(", "))} couldn't be downloaded. Check that link in your GitHub secret.</div>`:""}
+      ${cb("feedon",!S.settings.feedOff,`<span class="lbl on">Use my synced calendar</span>`)}`
+    :`<p style="margin-top:0">Not connected yet. Follow the steps below once, then tap <b>check now</b>.</p>`}
+    <div class="btns"><button class="btn" id="fNow">check now</button></div>
+    <p class="muted">The robot updates every 3 hours. While it's on, your synced classes replace the built-in ones for those dates, and new deadlines appear in Tasks automatically.</p></section>
+  <section class="card"><h2>set up (once, on your laptop)</h2>
+    <ol class="steps">
+      <li><b>Copy your calendar links.</b> Blackboard: Calendar → ⚙ settings → <b>Get calendar feed link</b>. Google Calendar (optional): Settings → your calendar → <b>Secret address in iCal format</b>.</li>
+      <li><b>Save them on GitHub.</b> In your planner repository, go to <b>Settings → Secrets and variables → Actions → New repository secret</b>. Name it <code>CALENDAR_URLS</code> and paste the links, one per line.</li>
+      <li><b>Add the robot.</b> In the repository, click <b>Add file → Create new file</b>. Name it <code>.github/workflows/sync-calendar.yml</code>, paste the text from the button below, and click <b>Commit changes</b>.
+        <div class="btns"><button class="btn alt" id="cpW">copy robot text</button></div></li>
+      <li><b>Run it once.</b> Open the <b>Actions</b> tab, choose <b>Sync calendar</b>, click <b>Run workflow</b>, and wait for the green tick.</li>
+      <li>Come back here and tap <b>check now</b>.</li>
+    </ol>
+    <div class="note">Your links stay secret in GitHub. But your repository is public, so the synced class names and deadline titles in <code>calendar-feed.json</code> can be seen by anyone who finds it. The links and anything else in your calendar aren't included.</div></section>`;
+  $("#fNow").onclick=()=>{toast("Checking…");loadFeed(true).then(()=>{if(tab==="more"&&moreView==="sync")renderSync();});};
+  $("#cpW").onclick=()=>{(navigator.clipboard?navigator.clipboard.writeText(WORKFLOW):Promise.reject()).then(()=>toast("Copied. Paste it into GitHub."),()=>openSheet(`<h2>robot text</h2><p class="muted">Select all and copy.</p><textarea class="inp" style="min-height:300px;font-family:monospace;font-size:12px">${esc(WORKFLOW)}</textarea><div class="btns"><button class="btn plain" onclick="closeSheet()">Close</button></div>`));};
+  const t=view.querySelector('[data-id="feedon"]'); if(t) t.onchange=()=>{if(t.checked)delete S.settings.feedOff;else S.settings.feedOff=1;save();invalidate();renderSync();};
+}
+
 /* ================= plumbing ================= */
 if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));}
 async function checkForUpdate(){
@@ -1094,10 +1215,10 @@ let lastDay=todayKey();
 document.addEventListener("visibilitychange",async()=>{
   if(document.visibilityState!=="visible")return;
   if(lastDay!==todayKey()){ if(cur===lastDay)cur=todayKey(); lastDay=todayKey(); render(); }
-  if(!(await checkForUpdate())) syncReminders(false);
+  if(!(await checkForUpdate())){await loadFeed(false);syncReminders(false);}
 });
 setInterval(()=>syncReminders(false),30*60e3);
-setTimeout(()=>syncReminders(false),2000);
+loadFeed(false).finally(()=>setTimeout(()=>syncReminders(false),1500));
 setTab("today");
 </script>
 </body>

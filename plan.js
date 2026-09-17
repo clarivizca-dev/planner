@@ -15,7 +15,7 @@ const COURSES={
  OTHER:{n:"Other",s:"Other",c:"butter"}
 };
 const SEED={
- version:"2026-09-15d",
+ version:"2026-09-15e",
  year:2026,
  classLength:80,
  /* "MM-DD HH:MM CODE note"  or  "MM-DD async CODE" */

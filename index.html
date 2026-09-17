@@ -350,7 +350,11 @@ function allClasses(){
   const fDates=fc.map(c=>c.date).sort(), lo=fDates[0], hi=fDates[fDates.length-1];
   const inFeed=d=>fc.length&&d>=lo&&d<=hi;
   const own=S.classes.filter(c=>!fc.some(f=>f.date===c.date&&f.code===c.code&&f.start===c.start));
-  _cc=[...seedClasses().filter(c=>!inFeed(c.date)),...own,...fc].filter(c=>!S.deleted[c.id]).map(c=>Object.assign({},c,{title:c.title||COURSE(c.code).n,room:c.room||COURSE(c.code).room||""}));
+  /* one entry per class: the same session can come from Blackboard AND Google Calendar,
+     or from a screenshot you imported earlier. Feed copies win (they have the room). */
+  const seen=new Set();
+  const key=c=>`${c.date}|${c.async?"async":c.start}|${c.code!=="OTHER"?c.code:slug(c.title||"")}`;
+  _cc=[...fc,...own,...seedClasses().filter(c=>!inFeed(c.date))].filter(c=>!S.deleted[c.id]).filter(c=>{const k=key(c);if(seen.has(k))return false;seen.add(k);return true;}).map(c=>Object.assign({},c,{title:c.title||COURSE(c.code).n,room:c.room||COURSE(c.code).room||""}));
   return _cc;
 }
 function seedTasks(){
@@ -360,7 +364,9 @@ function allTasks(){
   if(_tc) return _tc;
   const base=[...seedTasks(),...S.tasks].filter(t=>!S.deleted[t.id]).map(t=>Object.assign({},t,S.taskEdits[t.id]||{}));
   const ft=feedItems().filter(i=>feedKind(i)==="deadline").map(i=>({id:`f-t-${i.id}`,date:i.date,time:i.allDay?"":(i.start||""),code:matchCourse(i.title),type:guessType(i.title),title:i.title,note:"From your calendar",feed:1}))
-    .filter(t=>!S.deleted[t.id]).filter(t=>!base.some(b=>sameTask(b,t))).map(t=>Object.assign({},t,S.taskEdits[t.id]||{}));
+    .filter(t=>!S.deleted[t.id]).filter(t=>!base.some(b=>sameTask(b,t)))
+    .filter((t,i,arr)=>arr.findIndex(u=>u.date===t.date&&slug(u.title)===slug(t.title))===i)
+    .map(t=>Object.assign({},t,S.taskEdits[t.id]||{}));
   _tc=[...base,...ft];
   return _tc;
 }

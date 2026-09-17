@@ -1,0 +1,3501 @@
+{
+"from": "2026-09-03",
+"to": "2027-02-14",
+"sources": 2,
+"errors": [],
+"items": [
+{
+"id": "a627713ef804",
+"date": "2026-09-03",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 1) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "bbd69fe5c70e",
+"date": "2026-09-03",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 1) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "05f3b7221aca",
+"date": "2026-09-04",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 2) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "265e91f5bfb0",
+"date": "2026-09-04",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 2) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "8f9e37ff9219",
+"date": "2026-09-04",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 2) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "d95b8b67e340",
+"date": "2026-09-04",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 2) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "9986f48a711b",
+"date": "2026-09-07",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 3) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "271dd24ec48f",
+"date": "2026-09-07",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 3) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "3ef3cfdd1d37",
+"date": "2026-09-07",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 1) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "2f9922f8669f",
+"date": "2026-09-07",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 1) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "1a9591ca4d39",
+"date": "2026-09-08",
+"start": "08:00",
+"end": "10:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS   |  (Ses. 3-4) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "9177aef8d687",
+"date": "2026-09-08",
+"start": "08:00",
+"end": "10:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 3-4) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "053aa9e3fc00",
+"date": "2026-09-08",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   |  (Ses. 2-3) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "ce48cc6001b4",
+"date": "2026-09-08",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 2-3) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "93e825718fa3",
+"date": "2026-09-09",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 2) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "80c58b5601c7",
+"date": "2026-09-09",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 2) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "826e4ea6415e",
+"date": "2026-09-09",
+"start": "11:59",
+"end": "11:59",
+"allDay": false,
+"title": "S1 assignment",
+"location": ""
+},
+{
+"id": "3983a09230f7",
+"date": "2026-09-09",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 3) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "6ed299f036a3",
+"date": "2026-09-09",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 3) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "978edb5493fe",
+"date": "2026-09-10",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 4) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "fef582fcac32",
+"date": "2026-09-10",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 4) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "e3683d408da6",
+"date": "2026-09-10",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 1) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "96b594506766",
+"date": "2026-09-10",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 1) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "0bce0a84c8ad",
+"date": "2026-09-11",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 3) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3e6b4c097c79",
+"date": "2026-09-11",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 3) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "0cfd015e1e4a",
+"date": "2026-09-11",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 4) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "f28cad6d33e2",
+"date": "2026-09-11",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 4) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "9ed2f687453b",
+"date": "2026-09-11",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 5) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3bec76de0e65",
+"date": "2026-09-11",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 5) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "e97da2cd9ddd",
+"date": "2026-09-12",
+"start": "11:54",
+"end": "11:59",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   Company and Innovation",
+"location": ""
+},
+{
+"id": "82d27105d0f0",
+"date": "2026-09-12",
+"start": "11:59",
+"end": "11:59",
+"allDay": false,
+"title": "Company and Innovation",
+"location": ""
+},
+{
+"id": "abc506bf4f86",
+"date": "2026-09-14",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 1) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3cac6d6befaf",
+"date": "2026-09-14",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 1) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "aa7d7bdffbf5",
+"date": "2026-09-14",
+"start": "09:25",
+"end": "09:25",
+"allDay": false,
+"title": "FT Presentation",
+"location": ""
+},
+{
+"id": "bc6fb226b675",
+"date": "2026-09-14",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 6) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "f0a9681a0441",
+"date": "2026-09-14",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 6) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "a5d3572f9989",
+"date": "2026-09-15",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT    (Ses. 4) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "5ab28423e5d4",
+"date": "2026-09-15",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 4) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "5a5b752f9fbe",
+"date": "2026-09-15",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS   |  (Ses. 5-6) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "27bf87396e56",
+"date": "2026-09-15",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 5-6) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "876e39df0979",
+"date": "2026-09-15",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 8 Quiz",
+"location": ""
+},
+{
+"id": "f47d75c361e4",
+"date": "2026-09-15",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 8 Warm up",
+"location": ""
+},
+{
+"id": "487fcb5cb904",
+"date": "2026-09-16",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 2) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "4901de2a8994",
+"date": "2026-09-16",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 2) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "7557b193209e",
+"date": "2026-09-16",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 4) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3f96e0300085",
+"date": "2026-09-16",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 4) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "8078f8abff43",
+"date": "2026-09-16",
+"start": "11:59",
+"end": "11:59",
+"allDay": false,
+"title": "S2 assignment",
+"location": ""
+},
+{
+"id": "37f0e997be13",
+"date": "2026-09-16",
+"start": "11:59",
+"end": "11:59",
+"allDay": false,
+"title": "S3 assignment",
+"location": ""
+},
+{
+"id": "3b8d90d07d55",
+"date": "2026-09-16",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 5) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "304ac67f64e1",
+"date": "2026-09-16",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 5) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "6930859b3843",
+"date": "2026-09-17",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 7) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "7cb5ff4348d4",
+"date": "2026-09-17",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 7) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "0fff89c3976a",
+"date": "2026-09-17",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 2) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "77e596cfbc6d",
+"date": "2026-09-17",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 2) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "0bf58b7516e3",
+"date": "2026-09-17",
+"start": "10:26",
+"end": "10:26",
+"allDay": false,
+"title": "**Last Update (IE Calendar)**",
+"location": ""
+},
+{
+"id": "ddfb34d746ac",
+"date": "2026-09-17",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 3) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "d35825d8efb5",
+"date": "2026-09-17",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 3) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "8183aecec076",
+"date": "2026-09-17",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz 1 - ICVCM Core Carbon Principles",
+"location": ""
+},
+{
+"id": "9e726ba47b87",
+"date": "2026-09-18",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 8) Asynchronous",
+"location": "Asynchronous"
+},
+{
+"id": "c2fbd1faa22e",
+"date": "2026-09-18",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 8) Asynchronous",
+"location": ""
+},
+{
+"id": "bedcf5c8a913",
+"date": "2026-09-18",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 5) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "ac4a0314f048",
+"date": "2026-09-18",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 5) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "4f28c29ebb2e",
+"date": "2026-09-18",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 6) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "25ea36bc453e",
+"date": "2026-09-18",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 6) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "a904bbddb48f",
+"date": "2026-09-18",
+"start": "12:30",
+"end": "12:30",
+"allDay": false,
+"title": "Lab 1 Submission: Search algorithm",
+"location": ""
+},
+{
+"id": "c4453d4a101c",
+"date": "2026-09-21",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 4) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "192e5a493995",
+"date": "2026-09-21",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 4) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "8a7583e109a5",
+"date": "2026-09-21",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 9) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "c8d4649096e3",
+"date": "2026-09-21",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 9) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "6cf31901ad88",
+"date": "2026-09-22",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT    (Ses. 5) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "5f7969f5f087",
+"date": "2026-09-22",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 5) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "d4eb943c4ea7",
+"date": "2026-09-22",
+"start": "11:00",
+"end": "12:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 7) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "4a1e877746aa",
+"date": "2026-09-22",
+"start": "11:00",
+"end": "12:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 7) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "7c9e93d119bb",
+"date": "2026-09-22",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 9 Quiz",
+"location": ""
+},
+{
+"id": "0c4d20362884",
+"date": "2026-09-22",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 9 Warm up",
+"location": ""
+},
+{
+"id": "78e270a541ef",
+"date": "2026-09-23",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 5) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3d839b01edd3",
+"date": "2026-09-23",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 5) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "2e256fcca4ab",
+"date": "2026-09-23",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 6) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "ca143514b9da",
+"date": "2026-09-23",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 6) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "f6e0196541d3",
+"date": "2026-09-23",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 8) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "587d1d801b77",
+"date": "2026-09-23",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 8) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "da5aa126e5f1",
+"date": "2026-09-24",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 10) Asynchronous",
+"location": "Asynchronous"
+},
+{
+"id": "750315a5bc11",
+"date": "2026-09-24",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 10) Asynchronous",
+"location": ""
+},
+{
+"id": "c6e4e2fdc450",
+"date": "2026-09-24",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 3) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "5c19953501c1",
+"date": "2026-09-24",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 3) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "d80e1352b006",
+"date": "2026-09-24",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 6) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "6683eed93178",
+"date": "2026-09-24",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 6) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "cd76d4f343c0",
+"date": "2026-09-25",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 7) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "fe4cb8b90f01",
+"date": "2026-09-25",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 7) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "9e01a4017d51",
+"date": "2026-09-25",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 9) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "dfb7a7950bdc",
+"date": "2026-09-25",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 9) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "75aa2fd79271",
+"date": "2026-09-25",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 11) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "9a64c5c344d5",
+"date": "2026-09-25",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 11) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "f511ef96bd9f",
+"date": "2026-09-25",
+"start": "13:00",
+"end": "14:20",
+"allDay": false,
+"title": "ATTENTION MANAGEMENT FOR LEARNING    (Ses. 1) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "ef627ee6ab9b",
+"date": "2026-09-25",
+"start": "13:00",
+"end": "14:20",
+"allDay": false,
+"title": "ATTENTION MANAGEMENT FOR LEARNING  (Ses. 1) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "dcc7a595f26d",
+"date": "2026-09-25",
+"start": "23:54",
+"end": "23:59",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   Product and Strategy",
+"location": ""
+},
+{
+"id": "3074a2a745b5",
+"date": "2026-09-25",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Assignment 1 : Using python for Stats",
+"location": ""
+},
+{
+"id": "9ff138c96ea4",
+"date": "2026-09-25",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Product and Strategy",
+"location": ""
+},
+{
+"id": "6c48724d36f8",
+"date": "2026-09-28",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 4) Asynchronous",
+"location": "Asynchronous"
+},
+{
+"id": "fccb45824ff4",
+"date": "2026-09-28",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 4) Asynchronous",
+"location": ""
+},
+{
+"id": "5843f0ed4eb6",
+"date": "2026-09-28",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 7) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "0824e2de5f5b",
+"date": "2026-09-28",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 7) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "29f5598a0b62",
+"date": "2026-09-28",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 12) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "980eef5f476c",
+"date": "2026-09-28",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 12) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "d2cf1fecb7ec",
+"date": "2026-09-29",
+"start": "08:00",
+"end": "10:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS   |  (Ses. 7-8) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "003862bf4cdd",
+"date": "2026-09-29",
+"start": "08:00",
+"end": "10:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 7-8) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "bfab33940d4b",
+"date": "2026-09-29",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   | | | | | | | | | | | , null, null, null, null, null, null, null, null, null, null (Ses. 6-7) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "4713f1704f06",
+"date": "2026-09-29",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 6-7) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "17b27d8238d6",
+"date": "2026-09-30",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 8) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "866a231e2a76",
+"date": "2026-09-30",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 8) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "38e63eda90e5",
+"date": "2026-09-30",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 8) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "72471c4bbae1",
+"date": "2026-09-30",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 8) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "5c759a3118e4",
+"date": "2026-09-30",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 10) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "76b4633f6097",
+"date": "2026-09-30",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 10) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "046573c2c21d",
+"date": "2026-10-01",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 13) Asynchronous",
+"location": "Asynchronous"
+},
+{
+"id": "6436c1180029",
+"date": "2026-10-01",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 13) Asynchronous",
+"location": ""
+},
+{
+"id": "94b9ac95cd9c",
+"date": "2026-10-01",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 5) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "630dd4684121",
+"date": "2026-10-01",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 5) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "05e0b1a6d250",
+"date": "2026-10-01",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 9) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "b3d109dad152",
+"date": "2026-10-01",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 9) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "8d29eda4679a",
+"date": "2026-10-02",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 9) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "288a303fbd17",
+"date": "2026-10-02",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 9) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "d9c26475f6c3",
+"date": "2026-10-02",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 11) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "87d071fad5d7",
+"date": "2026-10-02",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 11) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "76a75408527f",
+"date": "2026-10-02",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 14) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "16221a61bf1d",
+"date": "2026-10-02",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 14) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "58782ff10095",
+"date": "2026-10-05",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 15) Asynchronous",
+"location": "Asynchronous"
+},
+{
+"id": "8e18367d47af",
+"date": "2026-10-05",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 15) Asynchronous",
+"location": ""
+},
+{
+"id": "cf01f1e97fbb",
+"date": "2026-10-05",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 10) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "9d90209b8989",
+"date": "2026-10-05",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 10) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "8d4afa0da06e",
+"date": "2026-10-05",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 10) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "2855fd7339bc",
+"date": "2026-10-05",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 10) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "51c170331e20",
+"date": "2026-10-06",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT    (Ses. 8) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "97e40b2ab97f",
+"date": "2026-10-06",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 8) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "c735479567ca",
+"date": "2026-10-06",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS   |  (Ses. 9-10) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "9bef9493ba26",
+"date": "2026-10-06",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 9-10) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "7d30851e2ccb",
+"date": "2026-10-06",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 10 Quiz",
+"location": ""
+},
+{
+"id": "0e131ede3997",
+"date": "2026-10-06",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 10 Warm up",
+"location": ""
+},
+{
+"id": "d9bd4ebc277e",
+"date": "2026-10-06",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 11 Quiz",
+"location": ""
+},
+{
+"id": "77bddf54579e",
+"date": "2026-10-06",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 11 Warm up",
+"location": ""
+},
+{
+"id": "29744b984ad8",
+"date": "2026-10-07",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 11) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "8d1758ed5b97",
+"date": "2026-10-07",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 11) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "c542c3ed95f4",
+"date": "2026-10-07",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 11) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3948cb06c94c",
+"date": "2026-10-07",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 11) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "f065e52b2d92",
+"date": "2026-10-07",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 12) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "133dbeff7cec",
+"date": "2026-10-07",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 12) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "bd6b5d8d10cf",
+"date": "2026-10-08",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 16) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "cadc356fdc85",
+"date": "2026-10-08",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 16) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "95c7802248ae",
+"date": "2026-10-08",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 6) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "4531bb92bf65",
+"date": "2026-10-08",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 6) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "51b7140f1ca8",
+"date": "2026-10-08",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 12) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "ba8bb2d3e881",
+"date": "2026-10-08",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 12) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "782112b3fc6c",
+"date": "2026-10-09",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 12) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "66d44c3f5cb7",
+"date": "2026-10-09",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 12) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "42af76ce8e49",
+"date": "2026-10-09",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 13) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "888567dbc4c3",
+"date": "2026-10-09",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 13) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "e3c37360cbe2",
+"date": "2026-10-09",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 17) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "8c3ad50aeae5",
+"date": "2026-10-09",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 17) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "83293fc9e4e5",
+"date": "2026-10-13",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT    (Ses. 9) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "9a45638c6328",
+"date": "2026-10-13",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 9) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "7fbae733f2dc",
+"date": "2026-10-13",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS   |  (Ses. 11-12) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "b9754f0dd6d0",
+"date": "2026-10-13",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 11-12) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "01648fcf2164",
+"date": "2026-10-14",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 13) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "774be41ea0f0",
+"date": "2026-10-14",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 13) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "26db61a53882",
+"date": "2026-10-14",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 13) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "71a013677685",
+"date": "2026-10-14",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 13) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "7c9b180f9b90",
+"date": "2026-10-14",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 14) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "685aa9cc22d3",
+"date": "2026-10-14",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 14) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "3a1ed5a614f4",
+"date": "2026-10-15",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 18) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "03846d1c39a2",
+"date": "2026-10-15",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 18) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "b002b8182852",
+"date": "2026-10-15",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 7) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "07fc7818f3c1",
+"date": "2026-10-15",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 7) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "d698e961eeba",
+"date": "2026-10-15",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 14) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "780d24c99f44",
+"date": "2026-10-15",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 14) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "dcaf78f8e07e",
+"date": "2026-10-16",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 14) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "7e5ad694a0e3",
+"date": "2026-10-16",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 14) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "717082ae836e",
+"date": "2026-10-16",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 15) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "7c338c56648e",
+"date": "2026-10-16",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 15) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "31feeedb7a55",
+"date": "2026-10-16",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 19) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "8eeeeb57bca3",
+"date": "2026-10-16",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 19) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "d9b5ba335a71",
+"date": "2026-10-17",
+"start": "23:54",
+"end": "23:59",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   Price & Distribution",
+"location": ""
+},
+{
+"id": "873d71a97a10",
+"date": "2026-10-17",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Price & Distribution",
+"location": ""
+},
+{
+"id": "61d960ac40d5",
+"date": "2026-10-19",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 20) Asynchronous",
+"location": "Asynchronous"
+},
+{
+"id": "688be41378ba",
+"date": "2026-10-19",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 20) Asynchronous",
+"location": ""
+},
+{
+"id": "d2826a643b78",
+"date": "2026-10-19",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 15) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3b8d96652b65",
+"date": "2026-10-19",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 15) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "2191afb85287",
+"date": "2026-10-20",
+"start": "08:00",
+"end": "10:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS   |  (Ses. 13-14) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3091694e8e67",
+"date": "2026-10-20",
+"start": "08:00",
+"end": "10:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 13-14) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "5d2dfe8ff294",
+"date": "2026-10-20",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   |  (Ses. 10-11) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "8c4ef61cb1e6",
+"date": "2026-10-20",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 10-11) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "f3f6deb4fc0b",
+"date": "2026-10-20",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 12 Quiz",
+"location": ""
+},
+{
+"id": "fdb77aa5e6a9",
+"date": "2026-10-20",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 12 Warm up",
+"location": ""
+},
+{
+"id": "0453b14c8fb7",
+"date": "2026-10-21",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 16) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "5c31c96087cf",
+"date": "2026-10-21",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 16) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "96484bc64be0",
+"date": "2026-10-21",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 15) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "61b327a5c72e",
+"date": "2026-10-21",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 15) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "db8dbb8d3641",
+"date": "2026-10-21",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 16) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "1826b28b379d",
+"date": "2026-10-21",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 16) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "e2e4f1429baa",
+"date": "2026-10-22",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 21) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "bfa8246de3d6",
+"date": "2026-10-22",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 21) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "58820629db82",
+"date": "2026-10-22",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 8) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "15397f0fd28e",
+"date": "2026-10-22",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 8) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "b5075608c3b8",
+"date": "2026-10-22",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 17) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "277fd1d32150",
+"date": "2026-10-22",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 17) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "6c1a0bb17503",
+"date": "2026-10-23",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 16) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "a5a3be1441bf",
+"date": "2026-10-23",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 16) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "644f9416283d",
+"date": "2026-10-23",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 17) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "61e396d0dc48",
+"date": "2026-10-23",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 17) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "9ad9456a3be8",
+"date": "2026-10-23",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 22) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "f1ec1a61d743",
+"date": "2026-10-23",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 22) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "35c343f7bf80",
+"date": "2026-10-23",
+"start": "13:00",
+"end": "14:20",
+"allDay": false,
+"title": "ATTENTION MANAGEMENT FOR LEARNING    (Ses. 2) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "bbc75e51284f",
+"date": "2026-10-23",
+"start": "13:00",
+"end": "14:20",
+"allDay": false,
+"title": "ATTENTION MANAGEMENT FOR LEARNING  (Ses. 2) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "b03ec20eaec1",
+"date": "2026-10-26",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 18) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "f43c1d591fb9",
+"date": "2026-10-26",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 18) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "1f603bbf43be",
+"date": "2026-10-26",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 23) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "51a95f964fd5",
+"date": "2026-10-26",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 23) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "f7c25b32f845",
+"date": "2026-10-27",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT    (Ses. 12) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "7ee81be07165",
+"date": "2026-10-27",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 12) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "de9d34f982a8",
+"date": "2026-10-27",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS   |  (Ses. 15-16) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "a131588ac571",
+"date": "2026-10-27",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 15-16) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "acc0f2e077bd",
+"date": "2026-10-27",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 13 Quiz",
+"location": ""
+},
+{
+"id": "13bb736980ca",
+"date": "2026-10-27",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 13 Warm up",
+"location": ""
+},
+{
+"id": "a3ba59295cfd",
+"date": "2026-10-28",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 19) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "e0642256bc8f",
+"date": "2026-10-28",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 19) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "70fdd167556a",
+"date": "2026-10-28",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 17) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "30d982839ef6",
+"date": "2026-10-28",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 17) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "6c8d3dc8259f",
+"date": "2026-10-28",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 18) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "aa0de4fff64c",
+"date": "2026-10-28",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 18) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "faa055c5b325",
+"date": "2026-10-29",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 9) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "606814338395",
+"date": "2026-10-29",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 9) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "7784a49aa772",
+"date": "2026-10-29",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 20) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "37bab61c8c59",
+"date": "2026-10-29",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 20) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "3a9988261dde",
+"date": "2026-10-30",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 18) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "53e4b014d361",
+"date": "2026-10-30",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 18) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "acca3ceeb37f",
+"date": "2026-10-30",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 19) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "4250d752d3d4",
+"date": "2026-10-30",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 19) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "a40184c7999e",
+"date": "2026-10-30",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 24) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "b688533a6d4e",
+"date": "2026-10-30",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 24) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "d58292f3a856",
+"date": "2026-11-03",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT    (Ses. 13) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "e2edbfcdc08a",
+"date": "2026-11-03",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 13) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "412b93bda496",
+"date": "2026-11-03",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS   |  (Ses. 17-18) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3a31fa8b53af",
+"date": "2026-11-03",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 17-18) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "60f4a85aef9f",
+"date": "2026-11-03",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 14 Quiz",
+"location": ""
+},
+{
+"id": "88be60f808cb",
+"date": "2026-11-03",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 14 Warm up",
+"location": ""
+},
+{
+"id": "51bd579751a5",
+"date": "2026-11-04",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 21) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "65493be70d6f",
+"date": "2026-11-04",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 21) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "cc19c22e4578",
+"date": "2026-11-04",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 19) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "bb6898edeb4e",
+"date": "2026-11-04",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 19) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "b07fde139e70",
+"date": "2026-11-04",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 20) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "b33140c16e68",
+"date": "2026-11-04",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 20) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "50c25342b452",
+"date": "2026-11-05",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 25) Asynchronous",
+"location": "Asynchronous"
+},
+{
+"id": "1df2c8fa7a2c",
+"date": "2026-11-05",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 25) Asynchronous",
+"location": ""
+},
+{
+"id": "da5036cdb676",
+"date": "2026-11-05",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 10) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "1fb96863004a",
+"date": "2026-11-05",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 10) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "2decd150b789",
+"date": "2026-11-05",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 22) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "21a656c47a3e",
+"date": "2026-11-05",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 22) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "e4f60dce4ad3",
+"date": "2026-11-06",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 20) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "88b0a2c582ff",
+"date": "2026-11-06",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 20) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "c6b4f6cb2838",
+"date": "2026-11-06",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 21) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "72c69ad9c365",
+"date": "2026-11-06",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 21) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "e39634b553f4",
+"date": "2026-11-06",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 26) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "0880e2a25d11",
+"date": "2026-11-06",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 26) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "4cae86859f88",
+"date": "2026-11-10",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   | | , null (Ses. 14-15) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "b79b54ebf25c",
+"date": "2026-11-10",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 14-15) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "559d39a7d922",
+"date": "2026-11-10",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 15 Quiz",
+"location": ""
+},
+{
+"id": "61ee0f8f3d0c",
+"date": "2026-11-10",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 15 Warm up",
+"location": ""
+},
+{
+"id": "660c3e860965",
+"date": "2026-11-10",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 16 Quiz",
+"location": ""
+},
+{
+"id": "7190e4d35d5c",
+"date": "2026-11-10",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 16 Warm up",
+"location": ""
+},
+{
+"id": "54879d952d92",
+"date": "2026-11-11",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 23) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "864ddc3a6eaf",
+"date": "2026-11-11",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 23) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "f3ad8f8d2709",
+"date": "2026-11-11",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 21) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "a1cf456691fa",
+"date": "2026-11-11",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 21) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "957d1cba6551",
+"date": "2026-11-11",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 22) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3cea87741e0c",
+"date": "2026-11-11",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 22) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "8e40d2150d1f",
+"date": "2026-11-12",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 27) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "67966a53a0a0",
+"date": "2026-11-12",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 27) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "5425dd60205c",
+"date": "2026-11-12",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 11) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "b17123a88b3c",
+"date": "2026-11-12",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 11) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "825a78461100",
+"date": "2026-11-12",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 24) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "8a2d80c862ba",
+"date": "2026-11-12",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 24) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "25534fd859d5",
+"date": "2026-11-13",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 28) Asynchronous",
+"location": "Asynchronous"
+},
+{
+"id": "1eb1192e870c",
+"date": "2026-11-13",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 28) Asynchronous",
+"location": ""
+},
+{
+"id": "d83bcb44cd7c",
+"date": "2026-11-13",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 22) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "c643d1fc84aa",
+"date": "2026-11-13",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 22) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "281bacebe634",
+"date": "2026-11-13",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 23) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "85553993df6e",
+"date": "2026-11-13",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 23) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "aa5237e17333",
+"date": "2026-11-14",
+"start": "23:54",
+"end": "23:59",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   Communication Strategies",
+"location": ""
+},
+{
+"id": "2ec446244f6e",
+"date": "2026-11-14",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Communication Strategies",
+"location": ""
+},
+{
+"id": "4420150f9a53",
+"date": "2026-11-16",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 29) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "eda210fddd0e",
+"date": "2026-11-16",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 29) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "c5dd035f3ff4",
+"date": "2026-11-16",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 23) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "82e1980f0634",
+"date": "2026-11-16",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 23) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "644706befec7",
+"date": "2026-11-17",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT    (Ses. 16) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "226f101e2780",
+"date": "2026-11-17",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 16) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "1c2d2b1eb68d",
+"date": "2026-11-17",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS   |  (Ses. 19-20) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "50b7fb6d8ee6",
+"date": "2026-11-17",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 19-20) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "1fa96550d891",
+"date": "2026-11-17",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 17 Quiz",
+"location": ""
+},
+{
+"id": "921de97c1c73",
+"date": "2026-11-17",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 17 Warm up",
+"location": ""
+},
+{
+"id": "bad71056acd5",
+"date": "2026-11-18",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 25) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "9ddcb64a7598",
+"date": "2026-11-18",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 25) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "c72b20dee4d7",
+"date": "2026-11-18",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 24) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "d1b7f52c2169",
+"date": "2026-11-18",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 24) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "fbc396788563",
+"date": "2026-11-18",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 24) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "ab52ef659c5d",
+"date": "2026-11-18",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 24) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "1017b8cac707",
+"date": "2026-11-19",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS    (Ses. 21) Asynchronous",
+"location": "Asynchronous"
+},
+{
+"id": "98398af305ce",
+"date": "2026-11-19",
+"start": "00:00",
+"end": "23:59",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 21) Asynchronous",
+"location": ""
+},
+{
+"id": "b16f57eb08a5",
+"date": "2026-11-19",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 12) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "dc57eec839ed",
+"date": "2026-11-19",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 12) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "81968726df77",
+"date": "2026-11-19",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 26) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "2414ce4ed289",
+"date": "2026-11-19",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 26) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "f69b9808c58d",
+"date": "2026-11-20",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 25) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "93cd13869933",
+"date": "2026-11-20",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 25) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "bf5751e61c2b",
+"date": "2026-11-20",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 25) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "455bf87278cc",
+"date": "2026-11-20",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 25) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "e8e10699de1c",
+"date": "2026-11-20",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 30) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "99be93e0cd00",
+"date": "2026-11-20",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 30) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "ef6651bab9ba",
+"date": "2026-11-23",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 31) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "550b30e27469",
+"date": "2026-11-23",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 31) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "e7d3f5bdf61a",
+"date": "2026-11-24",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT    (Ses. 17) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3e62155cd93e",
+"date": "2026-11-24",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 17) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "529a884b8e25",
+"date": "2026-11-24",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS   |  (Ses. 22-23) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "c11a3cfb97c4",
+"date": "2026-11-24",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 22-23) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "0cf0bc4e48c0",
+"date": "2026-11-24",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 20 Quiz",
+"location": ""
+},
+{
+"id": "b85b1bd4fbae",
+"date": "2026-11-24",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Ch 20 Warm up",
+"location": ""
+},
+{
+"id": "bb2eb44e1cc5",
+"date": "2026-11-25",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 27) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "3e7e74f66a73",
+"date": "2026-11-25",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 27) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "4150a646385e",
+"date": "2026-11-25",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 26) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "7bc89dc81fe7",
+"date": "2026-11-25",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 26) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "bb5211a39342",
+"date": "2026-11-25",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 26) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "a3386e470264",
+"date": "2026-11-25",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 26) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "71bb20bcd947",
+"date": "2026-11-26",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 27) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "db2cbeb4a01e",
+"date": "2026-11-26",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 27) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "7eea3407d30a",
+"date": "2026-11-26",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT    (Ses. 13) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "1335d9e2a10e",
+"date": "2026-11-26",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 13) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "8fe7787ff214",
+"date": "2026-11-26",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 28) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "28617ee99805",
+"date": "2026-11-26",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 28) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "cef87e6cae50",
+"date": "2026-11-27",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 27) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "795ac301a18f",
+"date": "2026-11-27",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 27) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "96780a62a514",
+"date": "2026-11-27",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 32) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "2c6d103307e2",
+"date": "2026-11-27",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 32) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "a7b70ff8fee0",
+"date": "2026-11-27",
+"start": "23:54",
+"end": "23:59",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   Group work PDF",
+"location": ""
+},
+{
+"id": "8a9aff9ecfed",
+"date": "2026-11-27",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Group work PDF",
+"location": ""
+},
+{
+"id": "6be7e7d083d2",
+"date": "2026-11-29",
+"start": "23:54",
+"end": "23:59",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   Group Work PPT",
+"location": ""
+},
+{
+"id": "89c2bbd374dc",
+"date": "2026-11-29",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Group Work PPT",
+"location": ""
+},
+{
+"id": "c4a478b751a0",
+"date": "2026-12-02",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 29) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "f3f35d286770",
+"date": "2026-12-02",
+"start": "09:00",
+"end": "10:20",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 29) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "f4d844fe01cf",
+"date": "2026-12-02",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 28) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "6800917f8b0c",
+"date": "2026-12-02",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 28) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "97a9085f56b7",
+"date": "2026-12-02",
+"start": "11:25",
+"end": "11:30",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   Group Work Performance / Delivery",
+"location": ""
+},
+{
+"id": "bfdf55043020",
+"date": "2026-12-02",
+"start": "11:30",
+"end": "11:30",
+"allDay": false,
+"title": "Group Work Performance / Delivery",
+"location": ""
+},
+{
+"id": "e6eea9139690",
+"date": "2026-12-02",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 28) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "1b3241f02d34",
+"date": "2026-12-02",
+"start": "12:00",
+"end": "13:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 28) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "bf41fa611275",
+"date": "2026-12-03",
+"start": "08:00",
+"end": "10:50",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT   |  (Ses. 14-15) T-03.01",
+"location": "T-03.01"
+},
+{
+"id": "01baa7afbe0a",
+"date": "2026-12-03",
+"start": "08:00",
+"end": "10:50",
+"allDay": false,
+"title": "TECHNOLOGY WITH IMPACT  (Ses. 14-15) Live in-person",
+"location": "T-03.01"
+},
+{
+"id": "eecb578b583e",
+"date": "2026-12-03",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   |  (Ses. 18-19) T-08.01",
+"location": "T-08.01"
+},
+{
+"id": "ab6723deec1d",
+"date": "2026-12-03",
+"start": "11:00",
+"end": "13:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 18-19) Live in-person",
+"location": "T-08.01"
+},
+{
+"id": "3676cbd7d304",
+"date": "2026-12-04",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 29) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "86c0c254d732",
+"date": "2026-12-04",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 29) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "e9267df968ac",
+"date": "2026-12-04",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 29) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "df3f23beb2e3",
+"date": "2026-12-04",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 29) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "6c9e08b12a17",
+"date": "2026-12-04",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 33) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "9ea12df929d0",
+"date": "2026-12-04",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 33) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "a7c9e150e53d",
+"date": "2026-12-09",
+"start": "10:30",
+"end": "13:20",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS   |  (Ses. 24-25) T-19.01",
+"location": "T-19.01"
+},
+{
+"id": "a86b8e6ceef0",
+"date": "2026-12-09",
+"start": "10:30",
+"end": "13:20",
+"allDay": false,
+"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 24-25) Live in-person",
+"location": "T-19.01"
+},
+{
+"id": "dea3cac2276c",
+"date": "2026-12-09",
+"start": "23:54",
+"end": "23:59",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   Marketing Management SMOWL - Test",
+"location": ""
+},
+{
+"id": "aa4201c55521",
+"date": "2026-12-09",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Marketing Management SMOWL - Test",
+"location": ""
+},
+{
+"id": "457bf51b3dbb",
+"date": "2026-12-10",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES    (Ses. 30) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "be8a19fb4f42",
+"date": "2026-12-10",
+"start": "11:30",
+"end": "12:50",
+"allDay": false,
+"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 30) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "b31d83429e87",
+"date": "2026-12-11",
+"start": "10:00",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS   |  (Ses. 34-35) T-06.02",
+"location": "T-06.02"
+},
+{
+"id": "bd175215acf7",
+"date": "2026-12-11",
+"start": "10:00",
+"end": "12:50",
+"allDay": false,
+"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 34-35) Live in-person",
+"location": "T-06.02"
+},
+{
+"id": "3bbe04fab386",
+"date": "2026-12-11",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Give feedback to yourself and group members - Marketing Management  Course Peer Evaluation",
+"location": ""
+},
+{
+"id": "6f70f0d02077",
+"date": "2026-12-15",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Read received feedback and give feedback-on-feedback - Marketing Management  Course Peer Evaluation",
+"location": ""
+},
+{
+"id": "0caa404f5080",
+"date": "2026-12-16",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS    (Ses. 30) T-18.01|T-18.03",
+"location": "T-18.01|T-18.03"
+},
+{
+"id": "97c1a781d980",
+"date": "2026-12-16",
+"start": "10:30",
+"end": "11:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 30) Live in-person",
+"location": "T-18.01|T-18.03"
+},
+{
+"id": "b242934bee6e",
+"date": "2026-12-17",
+"start": "09:00",
+"end": "11:30",
+"allDay": false,
+"title": "BBADBA SEP-2026MMn-NBDA.2.M.A: EXAM: Marketing Management T-03.01|T-03.02|T-03.03|T-03.04|T-04.01|T-04.02|T-05.01|T-05.02|T-06.01|T-06.02|T-06.03|T-06.04|T-07.01|T-07.02|T-07.03|T-07.04|T-08.01|T-08.02|T-08.03|T-08.04|T-09.01|T-09.02|T-10.01|T-10.02|T-11.01|T-11.02|T-12.01|T-12.02|T-12.03|T-12.04|T-13.01|T-13.02",
+"location": "T-03.01|T-03.02|T-03.03|T-03.04|T-04.01|T-04.02|T-05.01|T-05"
+},
+{
+"id": "dd46341934ed",
+"date": "2026-12-17",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT    (Ses. 20) IE TOWER",
+"location": "IE TOWER"
+},
+{
+"id": "2976dd282b8a",
+"date": "2026-12-17",
+"start": "09:30",
+"end": "10:50",
+"allDay": false,
+"title": "MARKETING MANAGEMENT  (Ses. 20) Live in-person",
+"location": "IE TOWER"
+},
+{
+"id": "f5cb9aac0b77",
+"date": "2026-12-18",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS    (Ses. 30) T-15.03",
+"location": "T-15.03"
+},
+{
+"id": "04a9d610e0bd",
+"date": "2026-12-18",
+"start": "10:00",
+"end": "11:20",
+"allDay": false,
+"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 30) Live in-person",
+"location": "T-15.03"
+},
+{
+"id": "13b9fd958087",
+"date": "2026-12-19",
+"start": "23:54",
+"end": "23:59",
+"allDay": false,
+"title": "MARKETING MANAGEMENT   Marketing Management Course Peer Evaluation",
+"location": ""
+},
+{
+"id": "564beca1a57a",
+"date": "2026-12-19",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Marketing Management Course Peer Evaluation",
+"location": ""
+},
+{
+"id": "65383bda1880",
+"date": "2026-12-19",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Reflect on the activity - Marketing Management  Course Peer Evaluation",
+"location": ""
+},
+{
+"id": "a7fe4d051294",
+"date": "2027-01-20",
+"start": "23:54",
+"end": "23:59",
+"allDay": false,
+"title": "CAREER DEVELOPMENT 2 - DUAL   STEP 1: Introduction to T&C",
+"location": ""
+},
+{
+"id": "70a18bb279e8",
+"date": "2027-01-20",
+"start": "23:54",
+"end": "23:59",
+"allDay": false,
+"title": "CAREER DEVELOPMENT 2 - DUAL   STEP 2: Career Orientation",
+"location": ""
+},
+{
+"id": "3e1a0e7c71b3",
+"date": "2027-01-20",
+"start": "23:54",
+"end": "23:59",
+"allDay": false,
+"title": "CAREER DEVELOPMENT 2 - DUAL   STEP 3: Learning about CVs",
+"location": ""
+},
+{
+"id": "d2d2af2bae5e",
+"date": "2027-01-20",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "STEP 1: Introduction to T&C",
+"location": ""
+},
+{
+"id": "a5cbfae7635b",
+"date": "2027-01-20",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "STEP 2: Career Orientation",
+"location": ""
+},
+{
+"id": "66884bf3226d",
+"date": "2027-01-20",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "STEP 3: Learning about CVs",
+"location": ""
+}
+],
+"updated": "2026-09-17T12:26+02:00"
+}

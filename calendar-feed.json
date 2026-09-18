@@ -401,6 +401,15 @@
 "location": "T-06.02"
 },
 {
+"id": "76e6411674c8",
+"date": "2026-09-23",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Before Session 3: Technology of interest",
+"location": ""
+},
+{
 "id": "750315a5bc11",
 "date": "2026-09-24",
 "start": "00:00",
@@ -1877,5 +1886,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-18T02:34+02:00"
+"updated": "2026-09-18T11:28+02:00"
 }

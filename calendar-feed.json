@@ -275,15 +275,6 @@
 "location": "T-06.02"
 },
 {
-"id": "8183aecec076",
-"date": "2026-09-17",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Quiz 1 - ICVCM Core Carbon Principles",
-"location": ""
-},
-{
 "id": "c2fbd1faa22e",
 "date": "2026-09-18",
 "start": "00:00",
@@ -1895,5 +1886,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-18T14:32+02:00"
+"updated": "2026-09-18T17:27+02:00"
 }

@@ -1,27 +1,9 @@
 {
-"from": "2026-09-04",
-"to": "2027-02-15",
+"from": "2026-09-05",
+"to": "2027-02-16",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "265e91f5bfb0",
-"date": "2026-09-04",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 2) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "d95b8b67e340",
-"date": "2026-09-04",
-"start": "11:30",
-"end": "12:50",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 2) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "271dd24ec48f",
 "date": "2026-09-07",
@@ -1886,5 +1868,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-18T17:27+02:00"
+"updated": "2026-09-19T02:34+02:00"
 }

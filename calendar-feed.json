@@ -464,12 +464,30 @@
 "location": ""
 },
 {
+"id": "a27a2c735105",
+"date": "2026-09-25",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Lab II Submission: Sorting Algorithms",
+"location": ""
+},
+{
 "id": "9ff138c96ea4",
 "date": "2026-09-25",
 "start": "23:59",
 "end": "23:59",
 "allDay": false,
 "title": "Product and Strategy",
+"location": ""
+},
+{
+"id": "83f347795f2f",
+"date": "2026-09-25",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz Search",
 "location": ""
 },
 {
@@ -1868,5 +1886,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-20T02:35+02:00"
+"updated": "2026-09-20T23:26+02:00"
 }

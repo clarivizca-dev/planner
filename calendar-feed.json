@@ -1,27 +1,9 @@
 {
-"from": "2026-09-08",
-"to": "2027-02-19",
+"from": "2026-09-09",
+"to": "2027-02-20",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "9177aef8d687",
-"date": "2026-09-08",
-"start": "08:00",
-"end": "10:50",
-"allDay": false,
-"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 3-4) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "ce48cc6001b4",
-"date": "2026-09-08",
-"start": "11:00",
-"end": "13:50",
-"allDay": false,
-"title": "MARKETING MANAGEMENT  (Ses. 2-3) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "80c58b5601c7",
 "date": "2026-09-09",
@@ -1868,5 +1850,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-22T02:34+02:00"
+"updated": "2026-09-23T02:33+02:00"
 }

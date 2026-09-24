@@ -1,36 +1,9 @@
 {
-"from": "2026-09-09",
-"to": "2027-02-20",
+"from": "2026-09-10",
+"to": "2027-02-21",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "80c58b5601c7",
-"date": "2026-09-09",
-"start": "10:30",
-"end": "11:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 2) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "826e4ea6415e",
-"date": "2026-09-09",
-"start": "11:59",
-"end": "11:59",
-"allDay": false,
-"title": "S1 assignment",
-"location": ""
-},
-{
-"id": "6ed299f036a3",
-"date": "2026-09-09",
-"start": "12:00",
-"end": "13:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 3) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "fef582fcac32",
 "date": "2026-09-10",
@@ -1859,5 +1832,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-23T17:29+02:00"
+"updated": "2026-09-24T02:35+02:00"
 }

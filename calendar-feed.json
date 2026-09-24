@@ -518,6 +518,15 @@
 "location": ""
 },
 {
+"id": "ad5ce1d6d734",
+"date": "2026-09-30",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz Recursion",
+"location": ""
+},
+{
 "id": "edac3a7377c9",
 "date": "2026-09-30",
 "start": "23:59",
@@ -1850,5 +1859,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-24T08:34+02:00"
+"updated": "2026-09-24T14:34+02:00"
 }

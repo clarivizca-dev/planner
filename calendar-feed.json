@@ -491,6 +491,24 @@
 "location": "T-06.02"
 },
 {
+"id": "47a5e74c07f8",
+"date": "2026-09-30",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Asynchronous Session 4 - Individual",
+"location": ""
+},
+{
+"id": "85c347ba3358",
+"date": "2026-09-30",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Group Milestone #1",
+"location": ""
+},
+{
 "id": "6f1871479147",
 "date": "2026-09-30",
 "start": "23:59",
@@ -1841,5 +1859,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-25T02:36+02:00"
+"updated": "2026-09-25T14:34+02:00"
 }

@@ -545,6 +545,15 @@
 "location": ""
 },
 {
+"id": "6cc2ca10961a",
+"date": "2026-10-01",
+"start": "08:30",
+"end": "09:50",
+"allDay": false,
+"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 9) Live in-person",
+"location": "T-06.02"
+},
+{
 "id": "630dd4684121",
 "date": "2026-10-01",
 "start": "10:00",
@@ -560,15 +569,6 @@
 "end": "12:50",
 "allDay": false,
 "title": "ALGORITHMS & DATA STRUCTURES  (Ses. 9) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "288a303fbd17",
-"date": "2026-10-02",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 9) Live in-person",
 "location": "T-06.02"
 },
 {
@@ -1859,5 +1859,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-25T14:34+02:00"
+"updated": "2026-09-25T17:29+02:00"
 }

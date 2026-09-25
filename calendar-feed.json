@@ -1,27 +1,9 @@
 {
-"from": "2026-09-10",
-"to": "2027-02-21",
+"from": "2026-09-11",
+"to": "2027-02-22",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "fef582fcac32",
-"date": "2026-09-10",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 4) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "96b594506766",
-"date": "2026-09-10",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "TECHNOLOGY WITH IMPACT  (Ses. 1) Live in-person",
-"location": "T-03.01"
-},
 {
 "id": "3e6b4c097c79",
 "date": "2026-09-11",
@@ -1859,5 +1841,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-24T14:34+02:00"
+"updated": "2026-09-25T02:36+02:00"
 }

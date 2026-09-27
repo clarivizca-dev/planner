@@ -536,6 +536,15 @@
 "location": "T-06.02"
 },
 {
+"id": "6368c337ccac",
+"date": "2026-10-02",
+"start": "09:59",
+"end": "09:59",
+"allDay": false,
+"title": "Review Problem Set",
+"location": ""
+},
+{
 "id": "87d071fad5d7",
 "date": "2026-10-02",
 "start": "10:00",
@@ -1823,5 +1832,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-27T02:37+02:00"
+"updated": "2026-09-27T14:33+02:00"
 }

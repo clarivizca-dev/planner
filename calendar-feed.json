@@ -1076,6 +1076,15 @@
 "location": "T-06.02"
 },
 {
+"id": "a741f51bb106",
+"date": "2026-10-28",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Assignment 2 : Using Python for Outliers, Assumptions and Transformations.",
+"location": ""
+},
+{
 "id": "606814338395",
 "date": "2026-10-29",
 "start": "10:00",
@@ -1850,5 +1859,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-28T08:38+02:00"
+"updated": "2026-09-28T20:34+02:00"
 }

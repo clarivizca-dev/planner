@@ -500,6 +500,15 @@
 "location": ""
 },
 {
+"id": "24b9d3df3731",
+"date": "2026-09-30",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "S8 assignment - in pairs",
+"location": ""
+},
+{
 "id": "6436c1180029",
 "date": "2026-10-01",
 "start": "00:00",
@@ -534,6 +543,15 @@
 "allDay": false,
 "title": "ALGORITHMS & DATA STRUCTURES  (Ses. 9) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "ba3d21f520cf",
+"date": "2026-10-01",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz Divide and Conquer",
+"location": ""
 },
 {
 "id": "6368c337ccac",
@@ -1832,5 +1850,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-28T02:38+02:00"
+"updated": "2026-09-28T08:38+02:00"
 }

@@ -1,36 +1,9 @@
 {
-"from": "2026-09-14",
-"to": "2027-02-25",
+"from": "2026-09-15",
+"to": "2027-02-26",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "3cac6d6befaf",
-"date": "2026-09-14",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 1) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "aa7d7bdffbf5",
-"date": "2026-09-14",
-"start": "09:25",
-"end": "09:25",
-"allDay": false,
-"title": "FT Presentation",
-"location": ""
-},
-{
-"id": "f0a9681a0441",
-"date": "2026-09-14",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 6) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "5ab28423e5d4",
 "date": "2026-09-15",
@@ -1859,5 +1832,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-28T20:34+02:00"
+"updated": "2026-09-29T02:36+02:00"
 }

@@ -401,6 +401,15 @@
 "location": "T-06.02"
 },
 {
+"id": "ed4b7dfd632f",
+"date": "2026-09-29",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Team Video upload",
+"location": ""
+},
+{
 "id": "866a231e2a76",
 "date": "2026-09-30",
 "start": "09:00",
@@ -1832,5 +1841,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-29T02:36+02:00"
+"updated": "2026-09-29T08:36+02:00"
 }

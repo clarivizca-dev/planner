@@ -545,6 +545,15 @@
 "location": "T-06.02"
 },
 {
+"id": "dd5ad7ac6258",
+"date": "2026-10-05",
+"start": "10:00",
+"end": "10:00",
+"allDay": false,
+"title": "Lab 4 submission: Divide and Conquer",
+"location": ""
+},
+{
 "id": "2855fd7339bc",
 "date": "2026-10-05",
 "start": "11:30",
@@ -1805,5 +1814,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-30T02:39+02:00"
+"updated": "2026-09-30T11:32+02:00"
 }

@@ -509,6 +509,15 @@
 "location": ""
 },
 {
+"id": "9b340d7e6427",
+"date": "2026-10-02",
+"start": "09:59",
+"end": "09:59",
+"allDay": false,
+"title": "Session 9 assignment",
+"location": ""
+},
+{
 "id": "87d071fad5d7",
 "date": "2026-10-02",
 "start": "10:00",
@@ -1814,5 +1823,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-30T11:32+02:00"
+"updated": "2026-09-30T17:34+02:00"
 }

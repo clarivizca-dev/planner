@@ -1,45 +1,9 @@
 {
-"from": "2026-09-15",
-"to": "2027-02-26",
+"from": "2026-09-16",
+"to": "2027-02-27",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "5ab28423e5d4",
-"date": "2026-09-15",
-"start": "09:30",
-"end": "10:50",
-"allDay": false,
-"title": "MARKETING MANAGEMENT  (Ses. 4) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "27bf87396e56",
-"date": "2026-09-15",
-"start": "11:00",
-"end": "13:50",
-"allDay": false,
-"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 5-6) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "876e39df0979",
-"date": "2026-09-15",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 8 Quiz",
-"location": ""
-},
-{
-"id": "f47d75c361e4",
-"date": "2026-09-15",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 8 Warm up",
-"location": ""
-},
 {
 "id": "4901de2a8994",
 "date": "2026-09-16",
@@ -1841,5 +1805,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-29T23:29+02:00"
+"updated": "2026-09-30T02:39+02:00"
 }

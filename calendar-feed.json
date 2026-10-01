@@ -1,54 +1,9 @@
 {
-"from": "2026-09-16",
-"to": "2027-02-27",
+"from": "2026-09-17",
+"to": "2027-02-28",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "4901de2a8994",
-"date": "2026-09-16",
-"start": "09:00",
-"end": "10:20",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 2) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "3f96e0300085",
-"date": "2026-09-16",
-"start": "10:30",
-"end": "11:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 4) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "8078f8abff43",
-"date": "2026-09-16",
-"start": "11:59",
-"end": "11:59",
-"allDay": false,
-"title": "S2 assignment",
-"location": ""
-},
-{
-"id": "37f0e997be13",
-"date": "2026-09-16",
-"start": "11:59",
-"end": "11:59",
-"allDay": false,
-"title": "S3 assignment",
-"location": ""
-},
-{
-"id": "304ac67f64e1",
-"date": "2026-09-16",
-"start": "12:00",
-"end": "13:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 5) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "7cb5ff4348d4",
 "date": "2026-09-17",
@@ -1823,5 +1778,5 @@
 "location": ""
 }
 ],
-"updated": "2026-09-30T17:34+02:00"
+"updated": "2026-10-01T02:40+02:00"
 }

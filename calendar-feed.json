@@ -437,6 +437,15 @@
 "location": "T-03.01"
 },
 {
+"id": "02a2e3aad600",
+"date": "2026-10-01",
+"start": "10:18",
+"end": "10:18",
+"allDay": false,
+"title": "Quiz 2 - State of the Voluntary Carbon Market",
+"location": ""
+},
+{
 "id": "b3d109dad152",
 "date": "2026-10-01",
 "start": "11:30",
@@ -606,6 +615,15 @@
 "allDay": false,
 "title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 12) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "4ee39d41e281",
+"date": "2026-10-07",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz Hash Tables",
+"location": ""
 },
 {
 "id": "cadc356fdc85",
@@ -1778,5 +1796,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-01T02:40+02:00"
+"updated": "2026-10-01T11:33+02:00"
 }

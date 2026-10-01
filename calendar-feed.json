@@ -536,6 +536,15 @@
 "location": "T-06.02"
 },
 {
+"id": "ffc8a622ad85",
+"date": "2026-10-05",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Assignment 2 : Using Python for Outliers, Assumptions and Transformations.",
+"location": ""
+},
+{
 "id": "97e40b2ab97f",
 "date": "2026-10-06",
 "start": "09:30",
@@ -1011,15 +1020,6 @@
 "allDay": false,
 "title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 18) Live in-person",
 "location": "T-06.02"
-},
-{
-"id": "a741f51bb106",
-"date": "2026-10-28",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Assignment 2 : Using Python for Outliers, Assumptions and Transformations.",
-"location": ""
 },
 {
 "id": "606814338395",
@@ -1796,5 +1796,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-01T11:33+02:00"
+"updated": "2026-10-01T17:33+02:00"
 }

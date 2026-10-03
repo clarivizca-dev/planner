@@ -1,45 +1,9 @@
 {
-"from": "2026-09-18",
-"to": "2027-03-01",
+"from": "2026-09-19",
+"to": "2027-03-02",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "c2fbd1faa22e",
-"date": "2026-09-18",
-"start": "00:00",
-"end": "23:59",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 8) Asynchronous",
-"location": ""
-},
-{
-"id": "ac4a0314f048",
-"date": "2026-09-18",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 5) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "25ea36bc453e",
-"date": "2026-09-18",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 6) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "a904bbddb48f",
-"date": "2026-09-18",
-"start": "12:30",
-"end": "12:30",
-"allDay": false,
-"title": "Lab 1 Submission: Search algorithm",
-"location": ""
-},
 {
 "id": "192e5a493995",
 "date": "2026-09-21",
@@ -1769,5 +1733,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-02T02:38+02:00"
+"updated": "2026-10-03T02:37+02:00"
 }

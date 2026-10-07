@@ -293,12 +293,12 @@
 "location": ""
 },
 {
-"id": "19763137ea49",
+"id": "7bb98d5913e7",
 "date": "2026-09-30",
 "start": "23:59",
 "end": "23:59",
 "allDay": false,
-"title": "Session 8: Quiz",
+"title": "Session 8: Boolean Algebra. (Homeworks).",
 "location": ""
 },
 {
@@ -581,6 +581,15 @@
 "location": "T-06.02"
 },
 {
+"id": "27db3d6d0fb8",
+"date": "2026-10-09",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Lab 5 Submission: Hash Tables",
+"location": ""
+},
+{
 "id": "6084a44fcc50",
 "date": "2026-10-11",
 "start": "23:59",
@@ -606,6 +615,15 @@
 "allDay": false,
 "title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 11-12) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "e4a004765209",
+"date": "2026-10-13",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz OOP",
+"location": ""
 },
 {
 "id": "774be41ea0f0",
@@ -1697,5 +1715,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-07T02:43+02:00"
+"updated": "2026-10-07T11:33+02:00"
 }

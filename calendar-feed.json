@@ -464,15 +464,6 @@
 "location": "T-06.02"
 },
 {
-"id": "4ee39d41e281",
-"date": "2026-10-07",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Quiz Hash Tables",
-"location": ""
-},
-{
 "id": "cadc356fdc85",
 "date": "2026-10-08",
 "start": "08:30",
@@ -554,12 +545,30 @@
 "location": ""
 },
 {
-"id": "6084a44fcc50",
-"date": "2026-10-11",
+"id": "e6d19e175fc0",
+"date": "2026-10-09",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz Hash Tables",
+"location": ""
+},
+{
+"id": "617bde4fcc47",
+"date": "2026-10-12",
 "start": "23:59",
 "end": "23:59",
 "allDay": false,
 "title": "Assignment 3 - PCA",
+"location": ""
+},
+{
+"id": "8f116dee534e",
+"date": "2026-10-12",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Lab 6 Submission: OOP",
 "location": ""
 },
 {
@@ -1679,5 +1688,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-08T11:34+02:00"
+"updated": "2026-10-08T14:41+02:00"
 }

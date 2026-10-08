@@ -491,6 +491,15 @@
 "location": "T-03.01"
 },
 {
+"id": "525340813a13",
+"date": "2026-10-08",
+"start": "10:12",
+"end": "10:12",
+"allDay": false,
+"title": "Quiz 3 - Carbon Credit Simulation",
+"location": ""
+},
+{
 "id": "ba8bb2d3e881",
 "date": "2026-10-08",
 "start": "11:30",
@@ -1670,5 +1679,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-08T02:42+02:00"
+"updated": "2026-10-08T11:34+02:00"
 }

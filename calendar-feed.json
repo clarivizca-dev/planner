@@ -941,6 +941,15 @@
 "location": "T-06.02"
 },
 {
+"id": "179d0a825bf2",
+"date": "2026-10-30",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Make-up Assignment",
+"location": ""
+},
+{
 "id": "e2edbfcdc08a",
 "date": "2026-11-03",
 "start": "09:30",
@@ -1670,5 +1679,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-09T11:34+02:00"
+"updated": "2026-10-09T14:38+02:00"
 }

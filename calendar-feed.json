@@ -500,6 +500,15 @@
 "location": "T-06.02"
 },
 {
+"id": "15c12314998c",
+"date": "2026-10-09",
+"start": "11:20",
+"end": "11:20",
+"allDay": false,
+"title": "Determinants Problem Session",
+"location": ""
+},
+{
 "id": "8c3ad50aeae5",
 "date": "2026-10-09",
 "start": "11:30",
@@ -1661,5 +1670,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-09T02:45+02:00"
+"updated": "2026-10-09T11:34+02:00"
 }

@@ -1,36 +1,9 @@
 {
-"from": "2026-09-28",
-"to": "2027-03-11",
+"from": "2026-09-29",
+"to": "2027-03-12",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "fccb45824ff4",
-"date": "2026-09-28",
-"start": "00:00",
-"end": "23:59",
-"allDay": false,
-"title": "TECHNOLOGY WITH IMPACT  (Ses. 4) Asynchronous",
-"location": ""
-},
-{
-"id": "0824e2de5f5b",
-"date": "2026-09-28",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 7) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "980eef5f476c",
-"date": "2026-09-28",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 12) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "003862bf4cdd",
 "date": "2026-09-29",
@@ -1616,5 +1589,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-12T02:45+02:00"
+"updated": "2026-10-13T02:46+02:00"
 }

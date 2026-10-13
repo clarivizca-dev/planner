@@ -635,6 +635,24 @@
 "location": ""
 },
 {
+"id": "2a3845ac2a18",
+"date": "2026-10-20",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Lab 7 Submission",
+"location": ""
+},
+{
+"id": "6334165a8f2a",
+"date": "2026-10-20",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz",
+"location": ""
+},
+{
 "id": "5c31c96087cf",
 "date": "2026-10-21",
 "start": "09:00",
@@ -1589,5 +1607,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-13T02:46+02:00"
+"updated": "2026-10-13T23:43+02:00"
 }

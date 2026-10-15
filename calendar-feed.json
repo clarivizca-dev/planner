@@ -1,99 +1,9 @@
 {
-"from": "2026-09-30",
-"to": "2027-03-13",
+"from": "2026-10-01",
+"to": "2027-03-14",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "866a231e2a76",
-"date": "2026-09-30",
-"start": "09:00",
-"end": "10:20",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 8) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "72471c4bbae1",
-"date": "2026-09-30",
-"start": "10:30",
-"end": "11:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 8) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "76b4633f6097",
-"date": "2026-09-30",
-"start": "12:00",
-"end": "13:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 10) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "47a5e74c07f8",
-"date": "2026-09-30",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Asynchronous Session 4 - Individual",
-"location": ""
-},
-{
-"id": "85c347ba3358",
-"date": "2026-09-30",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Group Milestone #1",
-"location": ""
-},
-{
-"id": "6f1871479147",
-"date": "2026-09-30",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Lab III Submission: Recursion",
-"location": ""
-},
-{
-"id": "ad5ce1d6d734",
-"date": "2026-09-30",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Quiz Recursion",
-"location": ""
-},
-{
-"id": "edac3a7377c9",
-"date": "2026-09-30",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Quiz Sort",
-"location": ""
-},
-{
-"id": "24b9d3df3731",
-"date": "2026-09-30",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "S8 assignment - in pairs",
-"location": ""
-},
-{
-"id": "7bb98d5913e7",
-"date": "2026-09-30",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Session 8: Boolean Algebra. (Homeworks).",
-"location": ""
-},
 {
 "id": "6436c1180029",
 "date": "2026-10-01",
@@ -1589,5 +1499,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-14T11:46+02:00"
+"updated": "2026-10-15T02:55+02:00"
 }

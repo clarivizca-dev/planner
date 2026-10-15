@@ -1,63 +1,9 @@
 {
-"from": "2026-10-01",
-"to": "2027-03-14",
+"from": "2026-10-02",
+"to": "2027-03-15",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "6436c1180029",
-"date": "2026-10-01",
-"start": "00:00",
-"end": "23:59",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 13) Asynchronous",
-"location": ""
-},
-{
-"id": "6cc2ca10961a",
-"date": "2026-10-01",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 9) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "630dd4684121",
-"date": "2026-10-01",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "TECHNOLOGY WITH IMPACT  (Ses. 5) Live in-person",
-"location": "T-03.01"
-},
-{
-"id": "02a2e3aad600",
-"date": "2026-10-01",
-"start": "10:18",
-"end": "10:18",
-"allDay": false,
-"title": "Quiz 2 - State of the Voluntary Carbon Market",
-"location": ""
-},
-{
-"id": "b3d109dad152",
-"date": "2026-10-01",
-"start": "11:30",
-"end": "12:50",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 9) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "ba3d21f520cf",
-"date": "2026-10-01",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Quiz Divide and Conquer",
-"location": ""
-},
 {
 "id": "603f9e79a562",
 "date": "2026-10-02",
@@ -1499,5 +1445,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-15T02:55+02:00"
+"updated": "2026-10-16T01:41+02:00"
 }

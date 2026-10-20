@@ -1,63 +1,9 @@
 {
-"from": "2026-10-06",
-"to": "2027-03-19",
+"from": "2026-10-07",
+"to": "2027-03-20",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "97e40b2ab97f",
-"date": "2026-10-06",
-"start": "09:30",
-"end": "10:50",
-"allDay": false,
-"title": "MARKETING MANAGEMENT  (Ses. 8) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "9bef9493ba26",
-"date": "2026-10-06",
-"start": "11:00",
-"end": "13:50",
-"allDay": false,
-"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 9-10) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "7d30851e2ccb",
-"date": "2026-10-06",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 10 Quiz",
-"location": ""
-},
-{
-"id": "0e131ede3997",
-"date": "2026-10-06",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 10 Warm up",
-"location": ""
-},
-{
-"id": "d9bd4ebc277e",
-"date": "2026-10-06",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 11 Quiz",
-"location": ""
-},
-{
-"id": "77bddf54579e",
-"date": "2026-10-06",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 11 Warm up",
-"location": ""
-},
 {
 "id": "8d1758ed5b97",
 "date": "2026-10-07",
@@ -581,6 +527,15 @@
 "location": ""
 },
 {
+"id": "499a07411242",
+"date": "2026-10-27",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz",
+"location": ""
+},
+{
 "id": "e0642256bc8f",
 "date": "2026-10-28",
 "start": "09:00",
@@ -624,6 +579,15 @@
 "allDay": false,
 "title": "ALGORITHMS & DATA STRUCTURES  (Ses. 20) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "1be40cd6c770",
+"date": "2026-10-29",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Lab 8 Submission: Binary Search Trees",
+"location": ""
 },
 {
 "id": "53e4b014d361",
@@ -1400,5 +1364,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-20T10:35+02:00"
+"updated": "2026-10-21T01:54+02:00"
 }

@@ -401,6 +401,15 @@
 "location": ""
 },
 {
+"id": "ec5848994ca4",
+"date": "2026-10-20",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "TEDx Presentation Map and Script 1st Draft",
+"location": ""
+},
+{
 "id": "5c31c96087cf",
 "date": "2026-10-21",
 "start": "09:00",
@@ -408,6 +417,15 @@
 "allDay": false,
 "title": "ALGORITHMS & DATA STRUCTURES  (Ses. 16) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "7152a579b90e",
+"date": "2026-10-21",
+"start": "09:53",
+"end": "09:53",
+"allDay": false,
+"title": "TEDx Communication Presentation",
+"location": ""
 },
 {
 "id": "61b327a5c72e",
@@ -1382,5 +1400,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-20T02:22+02:00"
+"updated": "2026-10-20T10:35+02:00"
 }

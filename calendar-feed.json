@@ -1,54 +1,9 @@
 {
-"from": "2026-10-05",
-"to": "2027-03-18",
+"from": "2026-10-06",
+"to": "2027-03-19",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "8e18367d47af",
-"date": "2026-10-05",
-"start": "00:00",
-"end": "23:59",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 15) Asynchronous",
-"location": ""
-},
-{
-"id": "9d90209b8989",
-"date": "2026-10-05",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 10) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "dd5ad7ac6258",
-"date": "2026-10-05",
-"start": "10:00",
-"end": "10:00",
-"allDay": false,
-"title": "Lab 4 submission: Divide and Conquer",
-"location": ""
-},
-{
-"id": "2855fd7339bc",
-"date": "2026-10-05",
-"start": "11:30",
-"end": "12:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 10) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "ffc8a622ad85",
-"date": "2026-10-05",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Assignment 2 : Using Python for Outliers, Assumptions and Transformations.",
-"location": ""
-},
 {
 "id": "97e40b2ab97f",
 "date": "2026-10-06",
@@ -1427,5 +1382,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-19T01:15+02:00"
+"updated": "2026-10-20T02:22+02:00"
 }

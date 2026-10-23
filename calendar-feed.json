@@ -113,6 +113,15 @@
 "location": "T-12.02"
 },
 {
+"id": "58c7f80272be",
+"date": "2026-10-13",
+"start": "11:30",
+"end": "11:30",
+"allDay": false,
+"title": "Mkting Management Intermediate 1 Units 8-9-10-11",
+"location": ""
+},
+{
 "id": "e4a004765209",
 "date": "2026-10-13",
 "start": "23:59",
@@ -1310,5 +1319,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-23T06:54+02:00"
+"updated": "2026-10-23T13:42+02:00"
 }

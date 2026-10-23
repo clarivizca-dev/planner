@@ -1,45 +1,9 @@
 {
-"from": "2026-10-08",
-"to": "2027-03-21",
+"from": "2026-10-09",
+"to": "2027-03-22",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "cadc356fdc85",
-"date": "2026-10-08",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 16) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "4531bb92bf65",
-"date": "2026-10-08",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "TECHNOLOGY WITH IMPACT  (Ses. 6) Live in-person",
-"location": "T-03.01"
-},
-{
-"id": "525340813a13",
-"date": "2026-10-08",
-"start": "10:12",
-"end": "10:12",
-"allDay": false,
-"title": "Quiz 3 - Carbon Credit Simulation",
-"location": ""
-},
-{
-"id": "ba8bb2d3e881",
-"date": "2026-10-08",
-"start": "11:30",
-"end": "12:50",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 12) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "66d44c3f5cb7",
 "date": "2026-10-09",
@@ -1346,5 +1310,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-22T19:13+02:00"
+"updated": "2026-10-23T06:54+02:00"
 }

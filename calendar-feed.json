@@ -401,6 +401,15 @@
 "location": ""
 },
 {
+"id": "1e652cdc7221",
+"date": "2026-10-27",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Team Video Rehearsal Topic TEDx",
+"location": ""
+},
+{
 "id": "e0642256bc8f",
 "date": "2026-10-28",
 "start": "09:00",
@@ -533,6 +542,15 @@
 "end": "23:59",
 "allDay": false,
 "title": "Ch 14 Warm up",
+"location": ""
+},
+{
+"id": "967ed5d4d85e",
+"date": "2026-11-03",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz Graphs",
 "location": ""
 },
 {
@@ -1238,5 +1256,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-27T01:27+01:00"
+"updated": "2026-10-27T16:23+01:00"
 }

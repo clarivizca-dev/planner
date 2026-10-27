@@ -1,27 +1,9 @@
 {
-"from": "2026-10-12",
-"to": "2027-03-25",
+"from": "2026-10-13",
+"to": "2027-03-26",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "617bde4fcc47",
-"date": "2026-10-12",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Assignment 3 - PCA",
-"location": ""
-},
-{
-"id": "8f116dee534e",
-"date": "2026-10-12",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Lab 6 Submission: OOP",
-"location": ""
-},
 {
 "id": "9a45638c6328",
 "date": "2026-10-13",
@@ -1256,5 +1238,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-26T00:17+01:00"
+"updated": "2026-10-27T01:27+01:00"
 }

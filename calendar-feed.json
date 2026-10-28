@@ -410,6 +410,15 @@
 "location": "T-06.02"
 },
 {
+"id": "17934ec47e78",
+"date": "2026-10-28",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Employee Data Analysis and Transformation Using Pandas. (Homeworks)",
+"location": ""
+},
+{
 "id": "606814338395",
 "date": "2026-10-29",
 "start": "10:00",
@@ -543,6 +552,15 @@
 "allDay": false,
 "title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 20) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "9eebbb522bc8",
+"date": "2026-11-04",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Lab 9 Submission: Gaphs",
+"location": ""
 },
 {
 "id": "1df2c8fa7a2c",
@@ -842,6 +860,15 @@
 "location": "T-06.02"
 },
 {
+"id": "c3de795a34a2",
+"date": "2026-11-19",
+"start": "13:00",
+"end": "13:00",
+"allDay": false,
+"title": "Project 1st submission",
+"location": ""
+},
+{
 "id": "93cd13869933",
 "date": "2026-11-20",
 "start": "08:30",
@@ -932,6 +959,15 @@
 "location": "T-06.02"
 },
 {
+"id": "4e7cad972970",
+"date": "2026-11-25",
+"start": "10:30",
+"end": "10:30",
+"allDay": false,
+"title": "Project 2nd submission",
+"location": ""
+},
+{
 "id": "a3386e470264",
 "date": "2026-11-25",
 "start": "12:00",
@@ -966,6 +1002,33 @@
 "allDay": false,
 "title": "ALGORITHMS & DATA STRUCTURES  (Ses. 28) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "d2d7fb4e7eb6",
+"date": "2026-11-26",
+"start": "13:00",
+"end": "13:00",
+"allDay": false,
+"title": "Project 3rd submission. Code Directory",
+"location": ""
+},
+{
+"id": "a6a4ed2d7781",
+"date": "2026-11-26",
+"start": "13:00",
+"end": "13:00",
+"allDay": false,
+"title": "Project 3rd submission. UX tests recordings",
+"location": ""
+},
+{
+"id": "abb2a06b312d",
+"date": "2026-11-26",
+"start": "13:00",
+"end": "13:00",
+"allDay": false,
+"title": "Project 3rd submission. UX tests report and Retrospective",
+"location": ""
 },
 {
 "id": "795ac301a18f",
@@ -1029,6 +1092,24 @@
 "allDay": false,
 "title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 28) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "05ac57ff96aa",
+"date": "2026-12-02",
+"start": "10:30",
+"end": "10:30",
+"allDay": false,
+"title": "Project 4th Submission: FINAL WRITTEN REPORT",
+"location": ""
+},
+{
+"id": "890e7ad52695",
+"date": "2026-12-02",
+"start": "10:30",
+"end": "10:30",
+"allDay": false,
+"title": "Project 4th submission. Final Code directory",
+"location": ""
 },
 {
 "id": "bfdf55043020",
@@ -1220,5 +1301,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-28T06:45+01:00"
+"updated": "2026-10-28T13:58+01:00"
 }

@@ -527,6 +527,15 @@
 "location": "T-06.02"
 },
 {
+"id": "5421a7abb004",
+"date": "2026-11-04",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Group Milestone #2",
+"location": ""
+},
+{
 "id": "9eebbb522bc8",
 "date": "2026-11-04",
 "start": "23:59",
@@ -570,6 +579,15 @@
 "allDay": false,
 "title": "ALGORITHMS & DATA STRUCTURES  (Ses. 22) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "c66a8bb176f9",
+"date": "2026-11-05",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz Weighted Graphs",
+"location": ""
 },
 {
 "id": "72c69ad9c365",
@@ -804,6 +822,24 @@
 "allDay": false,
 "title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 24) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "a46d2630fb58",
+"date": "2026-11-18",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Bonus Point Opportunity #2 - Monitoring Tool (not mandatory)",
+"location": ""
+},
+{
+"id": "19832c9dd504",
+"date": "2026-11-18",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Bonus Point Opportunity #3 - Interview (not mandatory)",
+"location": ""
 },
 {
 "id": "98398af305ce",
@@ -1274,5 +1310,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-29T01:59+01:00"
+"updated": "2026-10-29T19:29+01:00"
 }

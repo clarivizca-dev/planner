@@ -1,36 +1,9 @@
 {
-"from": "2026-10-14",
-"to": "2027-03-27",
+"from": "2026-10-15",
+"to": "2027-03-28",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "774be41ea0f0",
-"date": "2026-10-14",
-"start": "09:00",
-"end": "10:20",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 13) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "71a013677685",
-"date": "2026-10-14",
-"start": "10:30",
-"end": "11:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 13) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "685aa9cc22d3",
-"date": "2026-10-14",
-"start": "12:00",
-"end": "13:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 14) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "03846d1c39a2",
 "date": "2026-10-15",
@@ -1301,5 +1274,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-28T13:58+01:00"
+"updated": "2026-10-29T01:59+01:00"
 }

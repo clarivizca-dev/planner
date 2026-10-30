@@ -248,6 +248,15 @@
 "location": "T-06.02"
 },
 {
+"id": "d7bc4975d864",
+"date": "2026-10-25",
+"start": "13:43",
+"end": "13:43",
+"allDay": false,
+"title": "Midterm Written",
+"location": ""
+},
+{
 "id": "f43c1d591fb9",
 "date": "2026-10-26",
 "start": "08:30",
@@ -1283,5 +1292,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-30T02:02+01:00"
+"updated": "2026-10-30T19:01+01:00"
 }

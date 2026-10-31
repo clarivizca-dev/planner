@@ -1,36 +1,9 @@
 {
-"from": "2026-10-16",
-"to": "2027-03-29",
+"from": "2026-10-17",
+"to": "2027-03-30",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "7e5ad694a0e3",
-"date": "2026-10-16",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 14) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "7c338c56648e",
-"date": "2026-10-16",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 15) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "8eeeeb57bca3",
-"date": "2026-10-16",
-"start": "11:30",
-"end": "12:50",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 19) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "688be41378ba",
 "date": "2026-10-19",
@@ -1292,5 +1265,5 @@
 "location": ""
 }
 ],
-"updated": "2026-10-30T19:01+01:00"
+"updated": "2026-10-31T06:46+01:00"
 }

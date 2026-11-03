@@ -1,36 +1,9 @@
 {
-"from": "2026-10-19",
-"to": "2027-04-01",
+"from": "2026-10-20",
+"to": "2027-04-02",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "688be41378ba",
-"date": "2026-10-19",
-"start": "00:00",
-"end": "23:59",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 20) Asynchronous",
-"location": ""
-},
-{
-"id": "3b8d96652b65",
-"date": "2026-10-19",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 15) Live in-person",
-"location": "T-04.02"
-},
-{
-"id": "dfc4afb05806",
-"date": "2026-10-19",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Price & Distribution",
-"location": ""
-},
 {
 "id": "3091694e8e67",
 "date": "2026-10-20",
@@ -1265,5 +1238,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-02T01:46+01:00"
+"updated": "2026-11-03T07:51+01:00"
 }

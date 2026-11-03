@@ -1,72 +1,9 @@
 {
-"from": "2026-10-20",
-"to": "2027-04-02",
+"from": "2026-10-21",
+"to": "2027-04-03",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "3091694e8e67",
-"date": "2026-10-20",
-"start": "08:00",
-"end": "10:50",
-"allDay": false,
-"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 13-14) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "8c4ef61cb1e6",
-"date": "2026-10-20",
-"start": "11:00",
-"end": "13:50",
-"allDay": false,
-"title": "MARKETING MANAGEMENT  (Ses. 10-11) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "f3f6deb4fc0b",
-"date": "2026-10-20",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 12 Quiz",
-"location": ""
-},
-{
-"id": "fdb77aa5e6a9",
-"date": "2026-10-20",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 12 Warm up",
-"location": ""
-},
-{
-"id": "2a3845ac2a18",
-"date": "2026-10-20",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Lab 7 Submission",
-"location": ""
-},
-{
-"id": "6334165a8f2a",
-"date": "2026-10-20",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Quiz",
-"location": ""
-},
-{
-"id": "ec5848994ca4",
-"date": "2026-10-20",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "TEDx Presentation Map and Script 1st Draft",
-"location": ""
-},
 {
 "id": "5c31c96087cf",
 "date": "2026-10-21",
@@ -437,6 +374,15 @@
 "location": "T-06.02"
 },
 {
+"id": "3108bf7120fd",
+"date": "2026-11-04",
+"start": "10:20",
+"end": "10:20",
+"allDay": false,
+"title": "Lab 10 Submission",
+"location": ""
+},
+{
 "id": "bb6898edeb4e",
 "date": "2026-11-04",
 "start": "10:30",
@@ -534,6 +480,15 @@
 "allDay": false,
 "title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 26) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "b336f1838319",
+"date": "2026-11-09",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Assignment 4 - Multivariable Regression Analysis",
+"location": ""
 },
 {
 "id": "b79b54ebf25c",
@@ -1238,5 +1193,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-03T07:51+01:00"
+"updated": "2026-11-04T00:25+01:00"
 }

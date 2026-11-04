@@ -482,6 +482,15 @@
 "location": "T-06.02"
 },
 {
+"id": "c5e7706517bc",
+"date": "2026-11-07",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Titanic Data Analysis Dashboard Data Visualization with Python, Seaborn and Matplotlib",
+"location": ""
+},
+{
 "id": "b336f1838319",
 "date": "2026-11-09",
 "start": "23:59",
@@ -1193,5 +1202,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-04T00:25+01:00"
+"updated": "2026-11-04T18:16+01:00"
 }

@@ -1,63 +1,9 @@
 {
-"from": "2026-10-21",
-"to": "2027-04-03",
+"from": "2026-10-22",
+"to": "2027-04-04",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "5c31c96087cf",
-"date": "2026-10-21",
-"start": "09:00",
-"end": "10:20",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 16) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "7152a579b90e",
-"date": "2026-10-21",
-"start": "09:53",
-"end": "09:53",
-"allDay": false,
-"title": "TEDx Communication Presentation",
-"location": ""
-},
-{
-"id": "61b327a5c72e",
-"date": "2026-10-21",
-"start": "10:30",
-"end": "11:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 15) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "84d0555c6e47",
-"date": "2026-10-21",
-"start": "11:59",
-"end": "11:59",
-"allDay": false,
-"title": "Session 14 assignment",
-"location": ""
-},
-{
-"id": "8b28dac11e47",
-"date": "2026-10-21",
-"start": "11:59",
-"end": "11:59",
-"allDay": false,
-"title": "Session 15 assignment",
-"location": ""
-},
-{
-"id": "1826b28b379d",
-"date": "2026-10-21",
-"start": "12:00",
-"end": "13:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 16) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "bfa8246de3d6",
 "date": "2026-10-22",
@@ -480,6 +426,15 @@
 "allDay": false,
 "title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 26) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "55abd0b6d5d9",
+"date": "2026-11-06",
+"start": "11:59",
+"end": "11:59",
+"allDay": false,
+"title": "Session 19 assignment",
+"location": ""
 },
 {
 "id": "c5e7706517bc",
@@ -1202,5 +1157,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-04T18:16+01:00"
+"updated": "2026-11-05T00:41+01:00"
 }

@@ -455,6 +455,15 @@
 "location": ""
 },
 {
+"id": "41ddc88ad685",
+"date": "2026-11-09",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz Greedy",
+"location": ""
+},
+{
 "id": "b79b54ebf25c",
 "date": "2026-11-10",
 "start": "11:00",
@@ -1157,5 +1166,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-05T00:41+01:00"
+"updated": "2026-11-05T18:26+01:00"
 }

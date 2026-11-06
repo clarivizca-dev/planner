@@ -1,54 +1,9 @@
 {
-"from": "2026-10-23",
-"to": "2027-04-05",
+"from": "2026-10-24",
+"to": "2027-04-06",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "a5a3be1441bf",
-"date": "2026-10-23",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 16) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "61e396d0dc48",
-"date": "2026-10-23",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 17) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "f185d8dc28cd",
-"date": "2026-10-23",
-"start": "11:20",
-"end": "11:20",
-"allDay": false,
-"title": "Vector Space Problem Session",
-"location": ""
-},
-{
-"id": "f1ec1a61d743",
-"date": "2026-10-23",
-"start": "11:30",
-"end": "12:50",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 22) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "bbc75e51284f",
-"date": "2026-10-23",
-"start": "13:00",
-"end": "14:20",
-"allDay": false,
-"title": "ATTENTION MANAGEMENT FOR LEARNING  (Ses. 2) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "d7bc4975d864",
 "date": "2026-10-25",
@@ -1139,5 +1094,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-06T00:39+01:00"
+"updated": "2026-11-07T00:11+01:00"
 }

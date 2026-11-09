@@ -1,18 +1,9 @@
 {
-"from": "2026-10-25",
-"to": "2027-04-07",
+"from": "2026-10-26",
+"to": "2027-04-08",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "d7bc4975d864",
-"date": "2026-10-25",
-"start": "13:43",
-"end": "13:43",
-"allDay": false,
-"title": "Midterm Written",
-"location": ""
-},
 {
 "id": "f43c1d591fb9",
 "date": "2026-10-26",
@@ -120,6 +111,15 @@
 "allDay": false,
 "title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 18) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "244a5e9b7d06",
+"date": "2026-10-28",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Eigenvalues and Eigenvectors Problem Session",
+"location": ""
 },
 {
 "id": "17934ec47e78",
@@ -1094,5 +1094,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-08T01:39+01:00"
+"updated": "2026-11-09T07:37+01:00"
 }

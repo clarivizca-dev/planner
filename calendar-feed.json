@@ -1,27 +1,9 @@
 {
-"from": "2026-10-26",
-"to": "2027-04-08",
+"from": "2026-10-27",
+"to": "2027-04-09",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "f43c1d591fb9",
-"date": "2026-10-26",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 18) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "51a95f964fd5",
-"date": "2026-10-26",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 23) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "7ee81be07165",
 "date": "2026-10-27",
@@ -1094,5 +1076,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-09T07:37+01:00"
+"updated": "2026-11-10T04:35+01:00"
 }

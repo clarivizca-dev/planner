@@ -1,63 +1,9 @@
 {
-"from": "2026-10-27",
-"to": "2027-04-09",
+"from": "2026-10-28",
+"to": "2027-04-10",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "7ee81be07165",
-"date": "2026-10-27",
-"start": "09:30",
-"end": "10:50",
-"allDay": false,
-"title": "MARKETING MANAGEMENT  (Ses. 12) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "a131588ac571",
-"date": "2026-10-27",
-"start": "11:00",
-"end": "13:50",
-"allDay": false,
-"title": "BUILDING POWERFUL RELATIONSHIPS  (Ses. 15-16) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "acc0f2e077bd",
-"date": "2026-10-27",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 13 Quiz",
-"location": ""
-},
-{
-"id": "13bb736980ca",
-"date": "2026-10-27",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 13 Warm up",
-"location": ""
-},
-{
-"id": "499a07411242",
-"date": "2026-10-27",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Quiz",
-"location": ""
-},
-{
-"id": "1e652cdc7221",
-"date": "2026-10-27",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Team Video Rehearsal Topic TEDx",
-"location": ""
-},
 {
 "id": "e0642256bc8f",
 "date": "2026-10-28",
@@ -1076,5 +1022,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-10T04:35+01:00"
+"updated": "2026-11-11T07:28+01:00"
 }

@@ -41,15 +41,6 @@
 "location": "T-06.02"
 },
 {
-"id": "244a5e9b7d06",
-"date": "2026-10-28",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Eigenvalues and Eigenvectors Problem Session",
-"location": ""
-},
-{
 "id": "17934ec47e78",
 "date": "2026-10-28",
 "start": "23:59",
@@ -329,6 +320,15 @@
 "location": "T-06.02"
 },
 {
+"id": "70d24a95153b",
+"date": "2026-11-10",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Bonus Opportunity #1 : Carbon Credit example (not mandatory)",
+"location": ""
+},
+{
 "id": "559d39a7d922",
 "date": "2026-11-10",
 "start": "23:59",
@@ -374,6 +374,15 @@
 "location": "T-06.02"
 },
 {
+"id": "2788e922ca0c",
+"date": "2026-11-11",
+"start": "10:30",
+"end": "10:30",
+"allDay": false,
+"title": "Lab 11 Submission: The Greedy Method",
+"location": ""
+},
+{
 "id": "a1cf456691fa",
 "date": "2026-11-11",
 "start": "10:30",
@@ -390,6 +399,15 @@
 "allDay": false,
 "title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 22) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "5b92493c39e7",
+"date": "2026-11-11",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Eigenvalues and Eigenvectors Problem Session",
+"location": ""
 },
 {
 "id": "67966a53a0a0",
@@ -435,6 +453,15 @@
 "allDay": false,
 "title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 22) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "b6b585513972",
+"date": "2026-11-13",
+"start": "09:59",
+"end": "09:59",
+"allDay": false,
+"title": "Session 20 assignment",
+"location": ""
 },
 {
 "id": "85553993df6e",
@@ -1022,5 +1049,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-11T07:28+01:00"
+"updated": "2026-11-11T18:11+01:00"
 }

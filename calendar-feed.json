@@ -437,15 +437,6 @@
 "location": ""
 },
 {
-"id": "2ec446244f6e",
-"date": "2026-11-14",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Communication Strategies",
-"location": ""
-},
-{
 "id": "eda210fddd0e",
 "date": "2026-11-16",
 "start": "10:00",
@@ -462,6 +453,15 @@
 "allDay": false,
 "title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 23) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "6fa31f6174e6",
+"date": "2026-11-16",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Communication Strategies",
+"location": ""
 },
 {
 "id": "226f101e2780",
@@ -1013,5 +1013,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-12T01:45+01:00"
+"updated": "2026-11-12T12:17+01:00"
 }

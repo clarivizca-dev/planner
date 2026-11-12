@@ -1,54 +1,9 @@
 {
-"from": "2026-10-28",
-"to": "2027-04-10",
+"from": "2026-10-29",
+"to": "2027-04-11",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "e0642256bc8f",
-"date": "2026-10-28",
-"start": "09:00",
-"end": "10:20",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 19) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "30d982839ef6",
-"date": "2026-10-28",
-"start": "10:30",
-"end": "11:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 17) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "9f0faec30a9f",
-"date": "2026-10-28",
-"start": "11:59",
-"end": "11:59",
-"allDay": false,
-"title": "Session 16 assignment",
-"location": ""
-},
-{
-"id": "aa0de4fff64c",
-"date": "2026-10-28",
-"start": "12:00",
-"end": "13:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 18) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "17934ec47e78",
-"date": "2026-10-28",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Employee Data Analysis and Transformation Using Pandas. (Homeworks)",
-"location": ""
-},
 {
 "id": "606814338395",
 "date": "2026-10-29",
@@ -471,6 +426,15 @@
 "allDay": false,
 "title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 23) Live in-person",
 "location": "T-06.02"
+},
+{
+"id": "a5f72e71a9fe",
+"date": "2026-11-13",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Quiz Dynamic",
+"location": ""
 },
 {
 "id": "2ec446244f6e",
@@ -1049,5 +1013,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-11T18:11+01:00"
+"updated": "2026-11-12T01:45+01:00"
 }

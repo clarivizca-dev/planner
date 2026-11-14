@@ -1,45 +1,9 @@
 {
-"from": "2026-10-30",
-"to": "2027-04-12",
+"from": "2026-10-31",
+"to": "2027-04-13",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "53e4b014d361",
-"date": "2026-10-30",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 18) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "4250d752d3d4",
-"date": "2026-10-30",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 19) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "b688533a6d4e",
-"date": "2026-10-30",
-"start": "11:30",
-"end": "12:50",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 24) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "179d0a825bf2",
-"date": "2026-10-30",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Make-up Assignment",
-"location": ""
-},
 {
 "id": "e2edbfcdc08a",
 "date": "2026-11-03",
@@ -995,5 +959,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-13T12:02+01:00"
+"updated": "2026-11-14T02:27+01:00"
 }

@@ -1,63 +1,9 @@
 {
-"from": "2026-11-04",
-"to": "2027-04-17",
+"from": "2026-11-05",
+"to": "2027-04-18",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "65493be70d6f",
-"date": "2026-11-04",
-"start": "09:00",
-"end": "10:20",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 21) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "3108bf7120fd",
-"date": "2026-11-04",
-"start": "10:20",
-"end": "10:20",
-"allDay": false,
-"title": "Lab 10 Submission",
-"location": ""
-},
-{
-"id": "bb6898edeb4e",
-"date": "2026-11-04",
-"start": "10:30",
-"end": "11:50",
-"allDay": false,
-"title": "PROGRAMMING FOR DATA MANAGEMENT & ANALYSIS  (Ses. 19) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "b33140c16e68",
-"date": "2026-11-04",
-"start": "12:00",
-"end": "13:20",
-"allDay": false,
-"title": "MATHEMATICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 20) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "5421a7abb004",
-"date": "2026-11-04",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Group Milestone #2",
-"location": ""
-},
-{
-"id": "9eebbb522bc8",
-"date": "2026-11-04",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Lab 9 Submission: Gaphs",
-"location": ""
-},
 {
 "id": "1df2c8fa7a2c",
 "date": "2026-11-05",
@@ -950,5 +896,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-18T12:46+01:00"
+"updated": "2026-11-19T03:35+01:00"
 }

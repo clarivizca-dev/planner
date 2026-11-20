@@ -401,15 +401,6 @@
 "location": ""
 },
 {
-"id": "9a914013717a",
-"date": "2026-11-19",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Give feedback to group members - Peer Feedback BPR",
-"location": ""
-},
-{
 "id": "93cd13869933",
 "date": "2026-11-20",
 "start": "08:30",
@@ -443,6 +434,24 @@
 "end": "23:59",
 "allDay": false,
 "title": "Assignment 5",
+"location": ""
+},
+{
+"id": "f798b665c63f",
+"date": "2026-11-20",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Exploring PySpark RDD Operations Through HR Analytics",
+"location": ""
+},
+{
+"id": "554f6d95fc7e",
+"date": "2026-11-20",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Give feedback to group members - Peer Feedback BPR",
 "location": ""
 },
 {
@@ -851,5 +860,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-20T03:20+01:00"
+"updated": "2026-11-20T12:44+01:00"
 }

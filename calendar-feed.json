@@ -1,18 +1,9 @@
 {
-"from": "2026-11-07",
-"to": "2027-04-20",
+"from": "2026-11-08",
+"to": "2027-04-21",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "c5e7706517bc",
-"date": "2026-11-07",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Titanic Data Analysis Dashboard Data Visualization with Python, Seaborn and Matplotlib",
-"location": ""
-},
 {
 "id": "b336f1838319",
 "date": "2026-11-09",
@@ -833,5 +824,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-21T03:19+01:00"
+"updated": "2026-11-22T02:21+01:00"
 }

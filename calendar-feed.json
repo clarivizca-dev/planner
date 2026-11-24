@@ -1,63 +1,9 @@
 {
-"from": "2026-11-10",
-"to": "2027-04-23",
+"from": "2026-11-11",
+"to": "2027-04-24",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "b79b54ebf25c",
-"date": "2026-11-10",
-"start": "11:00",
-"end": "13:50",
-"allDay": false,
-"title": "MARKETING MANAGEMENT  (Ses. 14-15) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "70d24a95153b",
-"date": "2026-11-10",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Bonus Opportunity #1 : Carbon Credit example (not mandatory)",
-"location": ""
-},
-{
-"id": "559d39a7d922",
-"date": "2026-11-10",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 15 Quiz",
-"location": ""
-},
-{
-"id": "61ee0f8f3d0c",
-"date": "2026-11-10",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 15 Warm up",
-"location": ""
-},
-{
-"id": "660c3e860965",
-"date": "2026-11-10",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 16 Quiz",
-"location": ""
-},
-{
-"id": "7190e4d35d5c",
-"date": "2026-11-10",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Ch 16 Warm up",
-"location": ""
-},
 {
 "id": "864ddc3a6eaf",
 "date": "2026-11-11",
@@ -518,33 +464,6 @@
 "location": "T-06.02"
 },
 {
-"id": "d2d7fb4e7eb6",
-"date": "2026-11-26",
-"start": "13:00",
-"end": "13:00",
-"allDay": false,
-"title": "Project 3rd submission. Code Directory",
-"location": ""
-},
-{
-"id": "a6a4ed2d7781",
-"date": "2026-11-26",
-"start": "13:00",
-"end": "13:00",
-"allDay": false,
-"title": "Project 3rd submission. UX tests recordings",
-"location": ""
-},
-{
-"id": "abb2a06b312d",
-"date": "2026-11-26",
-"start": "13:00",
-"end": "13:00",
-"allDay": false,
-"title": "Project 3rd submission. UX tests report and Retrospective",
-"location": ""
-},
-{
 "id": "795ac301a18f",
 "date": "2026-11-27",
 "start": "10:00",
@@ -569,6 +488,33 @@
 "end": "23:59",
 "allDay": false,
 "title": "Group work PDF",
+"location": ""
+},
+{
+"id": "73490e47d0e4",
+"date": "2026-11-28",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Project 3rd submission. Code Directory",
+"location": ""
+},
+{
+"id": "9995f3f0d866",
+"date": "2026-11-28",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Project 3rd submission. UX tests recordings",
+"location": ""
+},
+{
+"id": "4146403e2467",
+"date": "2026-11-28",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Project 3rd submission. UX tests report and Retrospective",
 "location": ""
 },
 {
@@ -851,5 +797,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-24T14:46+01:00"
+"updated": "2026-11-25T00:54+01:00"
 }

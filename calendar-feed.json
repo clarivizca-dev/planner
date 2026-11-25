@@ -419,10 +419,10 @@
 "location": "T-06.02"
 },
 {
-"id": "4e7cad972970",
+"id": "b2cb7e4805ed",
 "date": "2026-11-25",
-"start": "10:30",
-"end": "10:30",
+"start": "11:00",
+"end": "11:00",
 "allDay": false,
 "title": "Project 2nd submission",
 "location": ""
@@ -797,5 +797,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-25T00:54+01:00"
+"updated": "2026-11-25T20:18+01:00"
 }

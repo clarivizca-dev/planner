@@ -419,6 +419,15 @@
 "location": "T-06.02"
 },
 {
+"id": "8ab0513b600d",
+"date": "2026-11-26",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Final Exam (40%)",
+"location": ""
+},
+{
 "id": "795ac301a18f",
 "date": "2026-11-27",
 "start": "10:00",
@@ -435,15 +444,6 @@
 "allDay": false,
 "title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 32) Live in-person",
 "location": "T-06.02"
-},
-{
-"id": "8a9aff9ecfed",
-"date": "2026-11-27",
-"start": "23:59",
-"end": "23:59",
-"allDay": false,
-"title": "Group work PDF",
-"location": ""
 },
 {
 "id": "73490e47d0e4",
@@ -497,6 +497,15 @@
 "end": "23:59",
 "allDay": false,
 "title": "Final Presentation (25%)",
+"location": ""
+},
+{
+"id": "69b414fc0006",
+"date": "2026-12-01",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Group work PDF",
 "location": ""
 },
 {
@@ -770,5 +779,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-26T04:35+01:00"
+"updated": "2026-11-26T17:57+01:00"
 }

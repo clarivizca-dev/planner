@@ -1,36 +1,9 @@
 {
-"from": "2026-11-12",
-"to": "2027-04-25",
+"from": "2026-11-13",
+"to": "2027-04-26",
 "sources": 1,
 "errors": [],
 "items": [
-{
-"id": "67966a53a0a0",
-"date": "2026-11-12",
-"start": "08:30",
-"end": "09:50",
-"allDay": false,
-"title": "PROBABILITY & STATISTICS FOR DATA MANAGEMENT AND ANALYSIS  (Ses. 27) Live in-person",
-"location": "T-06.02"
-},
-{
-"id": "b17123a88b3c",
-"date": "2026-11-12",
-"start": "10:00",
-"end": "11:20",
-"allDay": false,
-"title": "TECHNOLOGY WITH IMPACT  (Ses. 11) Live in-person",
-"location": "T-03.01"
-},
-{
-"id": "8a2d80c862ba",
-"date": "2026-11-12",
-"start": "11:30",
-"end": "12:50",
-"allDay": false,
-"title": "ALGORITHMS & DATA STRUCTURES  (Ses. 24) Live in-person",
-"location": "T-06.02"
-},
 {
 "id": "1eb1192e870c",
 "date": "2026-11-13",
@@ -428,6 +401,15 @@
 "location": ""
 },
 {
+"id": "6eaa793b41e8",
+"date": "2026-11-26",
+"start": "23:59",
+"end": "23:59",
+"allDay": false,
+"title": "Session 27: PySpark QUIZZ",
+"location": ""
+},
+{
 "id": "795ac301a18f",
 "date": "2026-11-27",
 "start": "10:00",
@@ -779,5 +761,5 @@
 "location": ""
 }
 ],
-"updated": "2026-11-26T17:57+01:00"
+"updated": "2026-11-27T02:44+01:00"
 }
